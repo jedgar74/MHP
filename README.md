@@ -1,17 +1,16 @@
 # MHP
 
-El proyecto consiste en el desarrollo de una plataforma para ejecutar y desarrollar diferentes  metaheurísticas para solucionar diferentes problemas monoobjetivo (por ahora). Se desarrolló el software en Pytho 3 y en Spyder, se denominó MHP. 
+El proyecto consiste en el desarrollo de una plataforma para ejecutar y desarrollar diferentes  metaheurísticas para solucionar diferentes problemas monoobjetivo (por ahora). Se desarrolló el software en Python 3 y en Spyder, se denominó MHP. 
 
-Para la ejecución del proyecto debe generar un archivo python  los elementos de la librería necesarios para realizar la simulación. Entre ellos destaca, el problema que deseas resolver, las características de este último, el algoritmo utilizado, los parámetros del algoritmo, entre otros. Para simplificar se presentan dos  archivos python creados para tal caso para ejecutarse en la versión terminal o consola y otro en  Jupyter notebooks.
+Para la ejecución del proyecto debe generar un archivo python los elementos de la librería necesarios para realizar la simulación. Entre ellos destaca, el problema que desea resolver, las características de este último, el algoritmo utilizado, los parámetros del algoritmo, entre otros. Para simplificar se presentan dos  archivos python creados para tal caso para ejecutarse en la versión terminal o consola y otro en  Jupyter notebooks.
 
-Para la primera forma simplemente tiene que crear un archivo y ejecutarlo de la siguiente manera:
+Para la primera forma, simplemente tiene que crear un archivo y se ejecuta de la siguiente manera:
 
 python namefile.py
 
 Puede usar como ejemplo el archivo ExecuteToSP.py y editarlo.
 
-## Ejemplos
-``` [pyhon]
+## Ejemplo``` [pyhon]
  1. from agent.Agent import * 
  2. from examples.NQueens import * 
  3. problemv = NQueens(15)
