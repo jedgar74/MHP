@@ -1,0 +1,11 @@
+:: Metaheuristic :: GA---GA20o[10000]
+:: N. Experiment.:: 2
+-----------------------------------
+:: Better fitness :: 17.0
+:: Average        :: 18.5
+:: St. Deviation  :: 1.5
+:: Better Solution in the experiment :: 2
+-----------------------------------
+1 0 8 6 2 4 5 3 7  ::: 17.0
+-----------------------------------
+20.0 17.0 

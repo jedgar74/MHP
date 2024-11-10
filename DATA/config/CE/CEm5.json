@@ -1,0 +1,8 @@
+{ 
+	"version": "MULTIPLE",
+	"alpha": 0.3,
+	"nmulti": 5,	
+	"samples": 50,
+	"fpop": 0.50,
+	"rho": 0.025
+}

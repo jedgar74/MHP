@@ -1,0 +1,8 @@
+{ 
+	"alpha": 0,
+	"fpop": 1,
+	"minrho": 0.01,
+	"maxrho": 0.01,
+	"ratioExchange": 0.15,
+	"instances": 3
+}

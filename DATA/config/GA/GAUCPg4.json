@@ -1,0 +1,10 @@
+{
+	"version": "GENERATIONAL", 
+	"percElitism": 0.15, 
+	"individuals": 40, 
+	"crossoveroper": "ONEPOINT",  
+	"selectionoper": "TOURNAMENT", 
+	"mutationoper": "FLIPPING" ,  
+	"probcrossover": 1, 
+	"probmutation": 0.2  
+}

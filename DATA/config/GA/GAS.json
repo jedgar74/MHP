@@ -1,0 +1,10 @@
+{
+	"version": "STEADY", 
+	"percElitism": 0.15, 
+	"individuals": 15, 
+	"crossoveroper": "OX",  
+	"selectionoper": "TOURNAMENT", 
+	"mutationoper": "SWAPPING" ,  
+	"probcrossover": 1, 
+	"probmutation": 0.2  
+}

@@ -1,0 +1,7 @@
+{
+	"architecture": "BROADCAST",  
+	"numberAgents": 3,  
+	"numberCycles": 6,    
+	"listMethods": ["GA", "GA", "GA"],  
+	"configFiles": ["GAS", "GAS", "GAS"]  
+}

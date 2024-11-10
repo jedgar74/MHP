@@ -1,0 +1,11 @@
+:: Metaheuristic :: SA---SAG[10000]
+:: N. Experiment.:: 2
+-----------------------------------
+:: Better fitness :: 24.0
+:: Average        :: 26.0
+:: St. Deviation  :: 2.0
+:: Better Solution in the experiment :: 1
+-----------------------------------
+8 7 6 3 2 4 5 1 0  ::: 24.0
+-----------------------------------
+24.0 28.0 

@@ -1,0 +1,7 @@
+{
+	"architecture": "RING",  
+	"numberAgents": 3,  
+	"numberCycles": 5,    
+	"listMethods": ["SA", "SA", "SA"],  
+	"configFiles": ["SAS", "SAS", "SAS"]  
+}

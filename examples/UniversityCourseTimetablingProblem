@@ -1,0 +1,176 @@
+from problem.Problem import *
+## from util.MatrixI import *
+## from state.Solution import *
+
+import numpy as np 
+
+class UniversityCourseTimetablingProblem (Problem):
+
+	""" 
+	Define the University Course Timetabling problem   
+	:version:
+	:author: Jhon Amaya
+	"""
+
+	def __init__(self, namInst=None):
+		""" 
+		@param String namInst : 
+		@return  :
+		@author
+		"""
+		super().__init__()
+		self.nameShort = "UCTP"   
+		# print(self.typeState)
+		self.selOpers()
+        
+        # Utilizamos esta variable auxiliar para indicar Qué es la 
+        # permutación tiene números repetidos
+		self.typeVarMix = "INTEGER"
+		# print(type(self.op))
+		if (not namInst == None): 
+			self.readInstance(namInst) 
+            
+	""" 	  
+	Se define la solución como un vector cuya cuyo tamaño es el número 
+    de aulas por los periodos disponibles .s utilizamos el cero para 
+    indicar el aula vacía y los números para indicar las materias que 
+    se tienen en cada aula. Se convierte en un problema permutacional.
+	""" 
+	def readInstance(self, namFile):
+		""" 
+		@param String namFile : 
+		@return  :
+		@ 
+		""" 
+
+		self.icourses = [] 
+		self.irooms = [] 
+		self.icurricula = [] 
+		self.iunavailability = [] 
+		self.iroomconstraints = []     
+        
+		self.rooms = 0
+		self.days = 0
+		self.periods = 0    
+		self.courses = 0   
+        
+		with open('./DATA/instances/UCTP/'+namFile, 'r') as fileobj:
+		    content = fileobj.read()
+		    lines = content.split('\n')   
+        
+		# Each cycle is a instance
+		cntr = '' 
+        
+		for j in range(len(lines)): 
+			# auxili = lines[j]
+			r = lines[j].split()        
+			# 
+            
+          
+			if (len(r) != 0):     
+				#print('------', len(r), r)
+				if (cntr == '' ): 
+					if (r[0]=='Courses:'):
+						self.courses = int(r[1])
+						print(self.courses) 
+					elif (r[0]=='Rooms:'):
+						self.rooms = int(r[1])
+						print(self.rooms)       
+					elif (r[0]=='Days:'):
+						self.days = int(r[1])
+						print(self.days) 
+					elif (r[0]=='Periods_per_day:'):
+						self.periods = int(r[1])
+						print(self.periods) 
+					elif (r[0]=='Curricula:'):
+						self.curricula = r[1]
+						print(self.curricula) 
+					elif (r[0]=='Min_Max_Daily_Lectures:'):
+						self.minmaxdaylect = r[1:len(r)]
+						print(self.minmaxdaylect ) 
+					elif (r[0]=='UnavailabilityConstraints:'):
+						self.unavailability = r[1]
+						print(self.unavailability)       
+					elif (r[0]=='RoomConstraints:'):
+						self.roomconstraints = r[1]
+						print(self.roomconstraints)  
+					elif (r[0]=='COURSES:'):
+						cntr = 'COURSES'
+						print(cntr ) 
+					elif (r[0]=='ROOMS:'):
+						cntr = 'ROOMS'
+						print(cntr ) 
+					elif (r[0]=='CURRICULA:'):
+						cntr = 'CURRICULA'
+						print(cntr ) 
+					elif (r[0]=='UNAVAILABILITY_CONSTRAINTS:'):
+						cntr = 'UNAVAILABILITY_CONSTRAINT'
+						print(cntr ) 
+					elif (r[0]=='ROOM_CONSTRAINTS:'):
+						cntr = 'ROOM_CONSTRAINTS'
+						print(cntr ) 
+                        
+
+				elif (r[0]=='COURSES:'):
+					cntr = 'COURSES'
+					print(cntr ) 
+				elif (r[0]=='ROOMS:'):
+					cntr = 'ROOMS'
+					print(cntr ) 
+				elif (r[0]=='CURRICULA:'):
+					cntr = 'CURRICULA'
+					print(cntr ) 
+				elif (r[0]=='UNAVAILABILITY_CONSTRAINTS:'):
+					cntr = 'UNAVAILABILITY_CONSTRAINT'
+					print(cntr ) 
+				elif (r[0]=='ROOM_CONSTRAINTS:'):
+					cntr = 'ROOM_CONSTRAINTS'
+					print(cntr ) 
+                    
+				elif (cntr == 'COURSES' ):                
+					self.icourses.append(r) 
+					print(self.icourses) 
+                
+				elif (cntr == 'ROOMS' ):                
+					self.irooms.append(r)  
+					print(self.irooms)               
+                 
+				elif (cntr == 'CURRICULA' ):                
+					self.icurricula.append(r) 
+					print(self.icurricula)                
+       
+				elif (cntr == 'UNAVAILABILITY_CONSTRAINT'):                
+					self.iunavailability.append(r) 
+					print(self.iunavailability) 
+                
+				elif (cntr == 'ROOM_CONSTRAINTS'):                
+					self.iroomconstraints.append(r)  
+					print(self.iroomconstraints)                   
+                    
+
+		self.nVar = self.rooms * self.days * self.periods  
+		print(self.nVar)     
+        
+		self.perm = []
+		for j in range(len(self.icourses)):         
+			for i in range(int(self.icourses[j][2])): 
+				self.perm.append(j+1)        
+		if len(self.perm) < self.nVar:
+			for i in range(self.nVar-len(self.perm)): 
+				self.perm.append(0)                
+		print(self.perm)        
+        
+
+	def evaluate(self, s):
+		"""  
+		@param state.Solution s : 
+		@return  :
+		@author
+		""" 
+		count = 0  
+ 
+		
+		s.setFitness(count)
+        
+        
+   

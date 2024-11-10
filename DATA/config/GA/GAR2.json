@@ -1,0 +1,9 @@
+{
+	"version": "STEADY", 
+	"percElitism": 0.15, 
+	"individuals": 100, 
+	"crossoveroper": "BASIC",  
+	"mutationoper": "BASIC2" ,  
+	"probcrossover": 1, 
+	"probmutation": 0.2  
+}

@@ -1,0 +1,8 @@
+{
+	"architecture": "RING",  
+	"changeoftopology": "ON",
+	"numberAgents": 3,  
+	"numberCycles": 6,    
+	"listMethods": ["GA", "GA", "GA"],  
+	"configFiles": ["GAS", "GAS", "GAS"]  
+}

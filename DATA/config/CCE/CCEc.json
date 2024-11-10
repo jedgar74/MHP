@@ -1,0 +1,9 @@
+{ 
+	"alpha": 0.3,
+	"samples": 50,
+	"fpop": 0.25,
+	"minrho": 0.025,
+	"maxrho": 0.125,
+	"ratioExchange": 0.30,
+	"instances": 3
+}
