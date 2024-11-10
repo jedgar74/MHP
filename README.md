@@ -10,7 +10,8 @@ python namefile.py
 
 Puede usar como ejemplo el archivo ExecuteToSP.py y editarlo.
 
-## Ejemplo``` [pyhon]
+## Ejemplo
+``` [pyhon]
  1. from agent.Agent import * 
  2. from examples.NQueens import * 
  3. problemv = NQueens(15)
