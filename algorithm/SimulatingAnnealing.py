@@ -99,7 +99,7 @@ class SimulatingAnnealing (Heuristic):
 			nextState = copy.deepcopy(self.status.stateFinal)      
 		else :
 			nextState = copy.deepcopy(solution)        
-		nextState.prints("............")
+		# nextState.prints("............")   # ruido: 1 volcado por corrida
 		
 		temperature = self.initialTemperature() 
 		# print(self.parameters.get('mutationoper'))

@@ -115,7 +115,7 @@ class OperatorsPerm(OperatorsGeneric):
 		nelements = []        
 		for i in range(s1.nVar):
 			if i<lv or i>uv:
-				elements.append("")
+				elements.append(None)
 				nelements.append(s1.vars[i])
 			else:
 				elements.append(s1.vars[i])
@@ -123,7 +123,7 @@ class OperatorsPerm(OperatorsGeneric):
 		for i in range(s2.nVar):
 			if s2.vars[i] in nelements: 
 				for j in range(s1.nVar):
-					if elements[j] == "":
+					if elements[j] is None:
 						elements[j] = s2.vars[i] 
 						nelements.remove(s2.vars[i])
 						break 
@@ -155,7 +155,7 @@ class OperatorsPerm(OperatorsGeneric):
 		for i in range(s1.nVar):
 			if i<lv or i>uv:
 				valuesNoTaken.append(offspring1[i] )
-				offspring1[i] = "" 
+				offspring1[i] = None 
 			else:
 				if s2.vars[i] != s1.vars[i]:
 					genSelectToOffsp1.append(s2.vars[i])
@@ -187,7 +187,7 @@ class OperatorsPerm(OperatorsGeneric):
 		genSelectAux2 = copy.deepcopy(genSelectToOffsp2)   
         
 		for i in range(s1.nVar):
-			if offspring1[i] == "":
+			if offspring1[i] is None:
 				if s1.vars[i] in genSelectAux1:  
 					vaa = s1.vars[i]
 					p1 = genSelectAux1.index(vaa)  

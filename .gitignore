@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# logs de progreso de las corridas largas
+DATA/output/*.log
+DATA/output/*.png
