@@ -119,7 +119,11 @@ class TestAntColonyOptimization(unittest.TestCase):
         """Un JSON incompleto no debe romper la ejecucion."""
 
         tmp = "./DATA/config/ACO/ACOTEST.json"
-        json.dump({"ants": 5}, open(tmp, "w"))
+        # Cerrar explicitamente: en Windows el fichero seguiria abierto hasta
+        # que lo recogiera el recolector, justo cuando el finally intenta
+        # borrarlo.
+        with open(tmp, "w") as fh:
+            json.dump({"ants": 5}, fh)
         try:
             p = TravelingSalesmanProblem("eil51.tsp")
             p.counter = Counter(60)
