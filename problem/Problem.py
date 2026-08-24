@@ -40,8 +40,11 @@ class Problem(object):
 		self.upperlimits = None 
 		self.lowerlimits = None
 		self.typeVarMix = None
-		self.op = None 
-		
+		self.op = None
+		# Matriz de costos NxN. Solo la modelan los problemas basados en grafo
+		# (TSP, QAP, ...). Ver getCostMatrix().
+		self.matA = None
+
 		# Se definen dos variables. La primera corresponde a la precisión de las 
 		# operaciones y la segunda para la impresión de los resultados
 		self.precision = None	
@@ -64,6 +67,23 @@ class Problem(object):
 		@author
 		"""
 		pass
+
+
+	def getCostMatrix(self):
+		"""
+		Devuelve la matriz de costos NxN si el problema la modela, o None.
+		Las metaheuristicas constructivas (ACO) la requieren para calcular la
+		visibilidad heuristica; el resto del framework no la necesita.
+
+		Por defecto devuelve None: cada problema basado en grafo debe
+		sobrescribirlo. No se devuelve self.matA de forma generica porque en
+		varios problemas (ToolSwitching, CarSequencing, RehearsalScheduling)
+		ese atributo es una matriz de incidencia rectangular, no de costos.
+
+		@return numpy.ndarray :
+		@author
+		"""
+		return None
 
 
 	def selOpers(self):

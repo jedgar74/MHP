@@ -58,7 +58,7 @@ class GeneticAlgorithm (Heuristic):
 		self.status.stateFinal = copy.deepcopy(self.status.stateInitial)
         
 		if  run==True :
-			print('VERSION: '+ self.parameters.get('version'))
+			# print('VERSION: '+ self.parameters.get('version'))   # ruido: 1 linea por corrida
 			if  self.parameters.get('version') == "STEADY" :
 				self.geneticAlgorithm(self.status.stateFinal)
 			elif  self.parameters.get('version') == "GENERATIONAL" : # GENERATIONAL
@@ -136,7 +136,7 @@ class GeneticAlgorithm (Heuristic):
 		if solution!=None :
 			self.popul.addSort(solution)  
             
-		self.popul.printFitness("POP(INI)") #  before printTempoV(String)  
+		# self.popul.printFitness("POP(INI)") #  before printTempoV(String)   # ruido: 2 volcados por corrida
 		samples = 1  
 		while self.isStopCriteria():  
 			i = 0    
@@ -162,7 +162,7 @@ class GeneticAlgorithm (Heuristic):
 					i = i + 1 
 					# 	print(self.objProblem.counter.count)
 		self.status.stateFinal = self.popul.getIndividual(0)  
-		self.popul.printFitness("POP(FIN)") 
+		# self.popul.printFitness("POP(FIN)")   # ruido: 2 volcados por corrida
 		# self.popul.prints( )        
 
 
@@ -176,7 +176,7 @@ class GeneticAlgorithm (Heuristic):
 		if solution!=None :
 			self.popul.addSort(solution)		
         
-		self.popul.printFitness("POP(INI)")    
+		# self.popul.printFitness("POP(INI)")   # ruido: 2 volcados por corrida
 		popTemp = Population(0, self.objProblem)
         
         
@@ -229,7 +229,7 @@ class GeneticAlgorithm (Heuristic):
 			pp = pp +1
 			
 		self.status.stateFinal = self.popul.getIndividual(0)  
-		self.popul.printFitness("POP(FIN)") 
+		# self.popul.printFitness("POP(FIN)")   # ruido: 2 volcados por corrida
 		# self.popul.prints( )  
         
         

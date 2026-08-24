@@ -10,6 +10,7 @@ from algorithm.CooperativeCrossEntropy import *
 from algorithm.FireworksAlgorithm import *
 from algorithm.CooperativeSearch import *
 from algorithm.RandomWalk import *
+from algorithm.AntColonyOptimization import *
 
 from datetime import datetime, date, time, timedelta
 import calendar
@@ -48,6 +49,7 @@ class Agent(object):
 		self.stats = BasicStats(self.problem.typeProblem)
 		self.objMetaheuristic = None   
 		self.allsolutions = []
+		self.startCosts = []
  
 
 	def printFile(self):
@@ -113,11 +115,16 @@ class Agent(object):
 				self.stats.add(CooS.status.stateFinal)     
                 
 			if (self.metaheuristic == "RW") :
-				RW = RandomWalk(self.problem, self.paraMetaheuristic) 
-				self.stats.add(RW.status.stateFinal) 
+				RW = RandomWalk(self.problem, self.paraMetaheuristic)
+				self.stats.add(RW.status.stateFinal)
 				self.allsolutions = RW.solutions # Revisar la inclusión de esta variable
-												
-			self.problem.counter = Counter(self.nEvals)  
+
+			if (self.metaheuristic == "ACO") :
+				ACO = AntColonyOptimization(self.problem, self.paraMetaheuristic)
+				self.stats.add(ACO.status.stateFinal)
+				self.startCosts.append(ACO.lnnCost)
+
+			self.problem.counter = Counter(self.nEvals)
 		
 		print("\n") 
 		self.stats.prints();
@@ -169,9 +176,14 @@ class Agent(object):
 			# self.stats.add(CooS.status.stateFinal)     
             
 		if (self.metaheuristic == "RW") :
-			self.objMetaheuristic = CooperativeSearch(self.problem, self.paraMetaheuristic, False) 
-			# self.stats.add(CooS.status.stateFinal)     
-							
+			self.objMetaheuristic = CooperativeSearch(self.problem, self.paraMetaheuristic, False)
+			# self.stats.add(CooS.status.stateFinal)
+
+		if (self.metaheuristic == "ACO") :
+			self.objMetaheuristic = AntColonyOptimization(self.problem, self.paraMetaheuristic, False)
+			# self.stats.add(ACO.status.stateFinal)
+
+
 		# self.problem.counter = Counter(self.nEvals)  
 		
 		# print("\n") 
