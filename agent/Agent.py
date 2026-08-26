@@ -11,6 +11,7 @@ from algorithm.FireworksAlgorithm import *
 from algorithm.CooperativeSearch import *
 from algorithm.RandomWalk import *
 from algorithm.AntColonyOptimization import *
+from algorithm.TabuSearch import *
 
 from datetime import datetime, date, time, timedelta
 import calendar
@@ -124,6 +125,11 @@ class Agent(object):
 				self.stats.add(ACO.status.stateFinal)
 				self.startCosts.append(ACO.lnnCost)
 
+			if (self.metaheuristic == "TS") :
+				TS = TabuSearch(self.problem, self.paraMetaheuristic)
+				self.stats.add(TS.status.stateFinal)
+				self.startCosts.append(TS.nehCost)
+
 			self.problem.counter = Counter(self.nEvals)
 		
 		print("\n") 
@@ -182,6 +188,10 @@ class Agent(object):
 		if (self.metaheuristic == "ACO") :
 			self.objMetaheuristic = AntColonyOptimization(self.problem, self.paraMetaheuristic, False)
 			# self.stats.add(ACO.status.stateFinal)
+
+		if (self.metaheuristic == "TS") :
+			self.objMetaheuristic = TabuSearch(self.problem, self.paraMetaheuristic, False)
+			# self.stats.add(TS.status.stateFinal)
 
 
 		# self.problem.counter = Counter(self.nEvals)  

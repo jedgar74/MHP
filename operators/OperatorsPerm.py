@@ -408,3 +408,138 @@ class OperatorsPerm(OperatorsGeneric):
  
  
 		
+
+
+	# ------------------------------------------------------------------
+	# Generacion de vecindarios.
+	#
+	# mutation() devuelve UN vecino al azar, que es lo que necesitan SA y GA.
+	# Las metaheuristicas de trayectoria con memoria (TS) y las de busqueda
+	# local (HC, ILS, VNS) necesitan lo contrario: enumerar el vecindario y
+	# elegir el mejor candidato. Esa API no existia y se anade aqui.
+	#
+	# Cada vecino se devuelve junto con el movimiento que lo genera,
+	# (trabajo, posicion_origen, posicion_destino), porque la lista tabu se
+	# gestiona por atributos del movimiento y no por soluciones completas.
+	# ------------------------------------------------------------------
+
+	def neighborhood(self, name, sol, factor=None):
+		"""
+		Devuelve el vecindario de sol como lista de tuplas (vecino, movimiento).
+
+		@param String name : 'INSERTION' o 'SWAP'
+		@param state.Solution sol :
+		@param float factor : None enumera el vecindario completo (ALLNEIGHS);
+		                      un valor k muestrea k*nVar vecinos (FACTORNEIGHS)
+		@return list :
+		@author
+		"""
+		if name == 'INSERTION':
+			solx = self.neighborhoodInsertion(sol, factor)
+		elif name == 'SWAP':
+			solx = self.neighborhoodSwap(sol, factor)
+		else:
+			raise ValueError("This neighborhood method is not defined: "+name)
+		return solx
+
+
+	def neighborhoodInsertion(self, sol, factor=None):
+		"""
+		Vecindario de insercion: se saca el trabajo de la posicion i y se
+		reinserta en la posicion j, desplazando los intermedios.
+
+		Genera (n-1)^2 vecinos DISTINTOS. Para no repetir se descartan dos
+		casos: j == i devuelve la propia solucion, y j == i-1 produce la misma
+		permutacion que mover i-1 hacia i, ya que ambos movimientos equivalen
+		a intercambiar dos elementos adyacentes.
+
+		@param state.Solution sol :
+		@param float factor :
+		@return list :
+		@author
+		"""
+		n = sol.nVar
+		moves = []
+
+		for i in range(n):
+			for j in range(n):
+				if (j == i) or (j == i-1):
+					continue
+				moves.append([i, j])
+
+		moves = self.sampleMoves(moves, factor, n)
+
+		neighs = []
+		for i, j in moves:
+			u = copy.deepcopy(sol)
+
+			base = [int(x) for x in sol.vars]
+			job = base.pop(i)
+			base.insert(j, job)
+
+			u.vars = np.array(base, dtype=int)
+			# El vecino aun no esta evaluado. Se anula para que comparar sin
+			# evaluar falle de forma ruidosa en vez de arrastrar el valor viejo.
+			u.fitness = None
+
+			neighs.append((u, (job, i, j)))
+
+		return neighs
+
+
+	def neighborhoodSwap(self, sol, factor=None):
+		"""
+		Vecindario de intercambio: se permutan las posiciones i y j.
+		Genera n(n-1)/2 vecinos distintos.
+
+		@param state.Solution sol :
+		@param float factor :
+		@return list :
+		@author
+		"""
+		n = sol.nVar
+		moves = []
+
+		for i in range(n):
+			for j in range(i+1, n):
+				moves.append([i, j])
+
+		moves = self.sampleMoves(moves, factor, n)
+
+		neighs = []
+		for i, j in moves:
+			u = copy.deepcopy(sol)
+
+			job = int(sol.vars[i])
+			aux = u.vars[i]
+			u.vars[i] = u.vars[j]
+			u.vars[j] = aux
+			u.fitness = None
+
+			neighs.append((u, (job, i, j)))
+
+		return neighs
+
+
+	def sampleMoves(self, moves, factor, n):
+		"""
+		Aplica el muestreo de FACTORNEIGHS. Con factor k se devuelven k*n
+		movimientos tomados al azar sin reemplazo. Si factor es None, o si k*n
+		alcanza el tamano del vecindario completo, se devuelve el vecindario
+		entero (equivale a ALLNEIGHS).
+
+		@param list moves :
+		@param float factor :
+		@param int n :
+		@return list :
+		@author
+		"""
+		if factor == None:
+			return moves
+
+		size = int(factor * n)
+		if size >= len(moves):
+			return moves
+
+		idx = np.random.choice(len(moves), size, replace=False)
+		return [moves[k] for k in idx]

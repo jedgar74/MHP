@@ -1,0 +1,8 @@
+{
+	"tenure": 15,
+	"neighborhood": "INSERTION",
+	"tabuMode": "SOLUTION",
+	"allNeighs": "ALL",
+	"aspiration": true,
+	"initialTypeSolution": "NEH"
+}
