@@ -1,0 +1,2752 @@
+===============================================
+ PFSP :: TS vs GA vs SA
+ Instancias (bloques) : 30
+ Series               : ['TS/TS3', 'TS/TSc', 'TS/TS15', 'TS/TS25']
+ Corridas por serie   : [1, 1, 1, 1]
+ Evaluaciones/corrida : 50000
+ Referencia de calidad: opt/optimums.txt (mejor valor conocido)
+===============================================
+[PFSP] START 120 celdas (30 instancias x 4 series), 50000 evals
+
+-------- instance ------ ta001  (n=20, m=5)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1286.0
+:: Average        :: 1286.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 16 8 7 14 13 10 15 12 18 5 3 4 17 0 1 9 6 19 11  ::: 1286.0
+
+ 2 16 8 7 14 13 10 15 12 18 5 3 4 17 0 1 9 6 19 11  ::: 1286.0
+[PFSP] CELL 1/120 ta001 TS/TS3 best=1286 mean=1286.0 gap=0.63% | elapsed 0:00:09 | ETA 0:18:06
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1286.0
+:: Average        :: 1286.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 16 8 7 14 13 10 15 12 18 5 3 4 17 0 1 9 6 19 11  ::: 1286.0
+
+ 2 16 8 7 14 13 10 15 12 18 5 3 4 17 0 1 9 6 19 11  ::: 1286.0
+[PFSP] CELL 2/120 ta001 TS/TSc best=1286 mean=1286.0 gap=0.63% | elapsed 0:00:23 | ETA 0:23:05
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1286.0
+:: Average        :: 1286.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 16 8 7 14 13 10 15 12 18 5 3 4 17 0 1 9 6 19 11  ::: 1286.0
+
+ 2 16 8 7 14 13 10 15 12 18 5 3 4 17 0 1 9 6 19 11  ::: 1286.0
+[PFSP] CELL 3/120 ta001 TS/TS15 best=1286 mean=1286.0 gap=0.63% | elapsed 0:00:37 | ETA 0:24:12
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1286.0
+:: Average        :: 1286.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 16 8 7 14 13 10 15 12 18 5 3 4 17 0 1 9 6 19 11  ::: 1286.0
+
+ 2 16 8 7 14 13 10 15 12 18 5 3 4 17 0 1 9 6 19 11  ::: 1286.0
+[PFSP] CELL 4/120 ta001 TS/TS25 best=1286 mean=1286.0 gap=0.63% | elapsed 0:00:51 | ETA 0:24:43
+
+-------- instance ------ ta002  (n=20, m=5)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1359.0
+:: Average        :: 1359.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 5 9 16 6 18 19 13 2 11 17 8 14 0 12 15 4 3 10 1 7  ::: 1359.0
+
+ 5 9 16 6 18 19 13 2 11 17 8 14 0 12 15 4 3 10 1 7  ::: 1359.0
+[PFSP] CELL 5/120 ta002 TS/TS3 best=1359 mean=1359.0 gap=0.00% | elapsed 0:01:05 | ETA 0:25:04
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1359.0
+:: Average        :: 1359.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 5 9 16 6 18 19 13 2 11 17 8 14 0 12 15 4 3 10 1 7  ::: 1359.0
+
+ 5 9 16 6 18 19 13 2 11 17 8 14 0 12 15 4 3 10 1 7  ::: 1359.0
+[PFSP] CELL 6/120 ta002 TS/TSc best=1359 mean=1359.0 gap=0.00% | elapsed 0:01:19 | ETA 0:25:10
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1359.0
+:: Average        :: 1359.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 5 9 16 6 18 19 13 2 11 17 8 14 0 12 15 4 3 10 1 7  ::: 1359.0
+
+ 5 9 16 6 18 19 13 2 11 17 8 14 0 12 15 4 3 10 1 7  ::: 1359.0
+[PFSP] CELL 7/120 ta002 TS/TS15 best=1359 mean=1359.0 gap=0.00% | elapsed 0:01:33 | ETA 0:25:11
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1359.0
+:: Average        :: 1359.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 5 9 16 6 18 19 13 2 11 17 8 14 0 12 15 4 3 10 1 7  ::: 1359.0
+
+ 5 9 16 6 18 19 13 2 11 17 8 14 0 12 15 4 3 10 1 7  ::: 1359.0
+[PFSP] CELL 8/120 ta002 TS/TS25 best=1359 mean=1359.0 gap=0.00% | elapsed 0:01:47 | ETA 0:25:04
+
+-------- instance ------ ta003  (n=20, m=5)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1100.0
+:: Average        :: 1100.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 18 0 19 17 13 9 15 6 11 3 4 8 16 5 12 10 7 1 14  ::: 1100.0
+
+ 2 18 0 19 17 13 9 15 6 11 3 4 8 16 5 12 10 7 1 14  ::: 1100.0
+[PFSP] CELL 9/120 ta003 TS/TS3 best=1100 mean=1100.0 gap=1.76% | elapsed 0:02:01 | ETA 0:25:02
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1100.0
+:: Average        :: 1100.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 18 0 19 17 13 9 15 6 11 3 4 8 16 5 12 10 7 1 14  ::: 1100.0
+
+ 2 18 0 19 17 13 9 15 6 11 3 4 8 16 5 12 10 7 1 14  ::: 1100.0
+[PFSP] CELL 10/120 ta003 TS/TSc best=1100 mean=1100.0 gap=1.76% | elapsed 0:02:15 | ETA 0:24:50
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1100.0
+:: Average        :: 1100.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 18 0 19 17 13 9 15 6 11 3 4 8 16 5 12 10 7 1 14  ::: 1100.0
+
+ 2 18 0 19 17 13 9 15 6 11 3 4 8 16 5 12 10 7 1 14  ::: 1100.0
+[PFSP] CELL 11/120 ta003 TS/TS15 best=1100 mean=1100.0 gap=1.76% | elapsed 0:02:29 | ETA 0:24:40
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1100.0
+:: Average        :: 1100.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 18 0 19 17 13 9 15 6 11 3 4 8 16 5 12 10 7 1 14  ::: 1100.0
+
+ 2 18 0 19 17 13 9 15 6 11 3 4 8 16 5 12 10 7 1 14  ::: 1100.0
+[PFSP] CELL 12/120 ta003 TS/TS25 best=1100 mean=1100.0 gap=1.76% | elapsed 0:02:42 | ETA 0:24:26
+
+-------- instance ------ ta004  (n=20, m=5)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1302.0
+:: Average        :: 1302.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 12 8 15 16 10 18 9 6 11 14 0 4 19 1 2 7 5 13 3 17  ::: 1302.0
+
+ 12 8 15 16 10 18 9 6 11 14 0 4 19 1 2 7 5 13 3 17  ::: 1302.0
+[PFSP] CELL 13/120 ta004 TS/TS3 best=1302 mean=1302.0 gap=0.70% | elapsed 0:02:57 | ETA 0:24:19
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1302.0
+:: Average        :: 1302.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 12 8 15 16 10 18 9 6 11 14 0 4 19 1 2 7 5 13 3 17  ::: 1302.0
+
+ 12 8 15 16 10 18 9 6 11 14 0 4 19 1 2 7 5 13 3 17  ::: 1302.0
+[PFSP] CELL 14/120 ta004 TS/TSc best=1302 mean=1302.0 gap=0.70% | elapsed 0:03:10 | ETA 0:24:03
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1302.0
+:: Average        :: 1302.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 12 8 15 16 10 18 9 6 11 14 0 4 19 1 2 7 5 13 3 17  ::: 1302.0
+
+ 12 8 15 16 10 18 9 6 11 14 0 4 19 1 2 7 5 13 3 17  ::: 1302.0
+[PFSP] CELL 15/120 ta004 TS/TS15 best=1302 mean=1302.0 gap=0.70% | elapsed 0:03:24 | ETA 0:23:50
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1302.0
+:: Average        :: 1302.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 12 8 15 16 10 18 9 6 11 14 0 4 19 1 2 7 5 13 3 17  ::: 1302.0
+
+ 12 8 15 16 10 18 9 6 11 14 0 4 19 1 2 7 5 13 3 17  ::: 1302.0
+[PFSP] CELL 16/120 ta004 TS/TS25 best=1302 mean=1302.0 gap=0.70% | elapsed 0:03:37 | ETA 0:23:32
+
+-------- instance ------ ta005  (n=20, m=5)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1258.0
+:: Average        :: 1258.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 2 11 9 18 8 17 6 16 14 12 3 15 5 1 13 10 7 0 19  ::: 1258.0
+
+ 4 2 11 9 18 8 17 6 16 14 12 3 15 5 1 13 10 7 0 19  ::: 1258.0
+[PFSP] CELL 17/120 ta005 TS/TS3 best=1258 mean=1258.0 gap=1.86% | elapsed 0:03:50 | ETA 0:23:13
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1258.0
+:: Average        :: 1258.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 2 11 9 18 8 17 6 16 14 12 3 15 5 1 13 10 7 0 19  ::: 1258.0
+
+ 4 2 11 9 18 8 17 6 16 14 12 3 15 5 1 13 10 7 0 19  ::: 1258.0
+[PFSP] CELL 18/120 ta005 TS/TSc best=1258 mean=1258.0 gap=1.86% | elapsed 0:04:03 | ETA 0:22:59
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1258.0
+:: Average        :: 1258.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 2 11 9 18 8 17 6 16 14 12 3 15 5 1 13 10 7 0 19  ::: 1258.0
+
+ 4 2 11 9 18 8 17 6 16 14 12 3 15 5 1 13 10 7 0 19  ::: 1258.0
+[PFSP] CELL 19/120 ta005 TS/TS15 best=1258 mean=1258.0 gap=1.86% | elapsed 0:04:16 | ETA 0:22:43
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1258.0
+:: Average        :: 1258.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 2 11 9 18 8 17 6 16 14 12 3 15 5 1 13 10 7 0 19  ::: 1258.0
+
+ 4 2 11 9 18 8 17 6 16 14 12 3 15 5 1 13 10 7 0 19  ::: 1258.0
+[PFSP] CELL 20/120 ta005 TS/TS25 best=1258 mean=1258.0 gap=1.86% | elapsed 0:04:30 | ETA 0:22:30
+
+-------- instance ------ ta006  (n=20, m=5)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1210.0
+:: Average        :: 1210.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 10 12 4 19 16 5 7 6 15 11 13 0 17 9 14 8 3 18 1 2  ::: 1210.0
+
+ 10 12 4 19 16 5 7 6 15 11 13 0 17 9 14 8 3 18 1 2  ::: 1210.0
+[PFSP] CELL 21/120 ta006 TS/TS3 best=1210 mean=1210.0 gap=1.26% | elapsed 0:04:42 | ETA 0:22:14
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1210.0
+:: Average        :: 1210.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 10 12 4 19 16 5 7 6 15 11 13 0 17 9 14 8 3 18 1 2  ::: 1210.0
+
+ 10 12 4 19 16 5 7 6 15 11 13 0 17 9 14 8 3 18 1 2  ::: 1210.0
+[PFSP] CELL 22/120 ta006 TS/TSc best=1210 mean=1210.0 gap=1.26% | elapsed 0:04:55 | ETA 0:21:57
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1210.0
+:: Average        :: 1210.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 10 12 4 19 16 5 7 6 15 11 13 0 17 9 14 8 3 18 1 2  ::: 1210.0
+
+ 10 12 4 19 16 5 7 6 15 11 13 0 17 9 14 8 3 18 1 2  ::: 1210.0
+[PFSP] CELL 23/120 ta006 TS/TS15 best=1210 mean=1210.0 gap=1.26% | elapsed 0:05:09 | ETA 0:21:43
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1210.0
+:: Average        :: 1210.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 10 12 4 19 16 5 7 6 15 11 13 0 17 9 14 8 3 18 1 2  ::: 1210.0
+
+ 10 12 4 19 16 5 7 6 15 11 13 0 17 9 14 8 3 18 1 2  ::: 1210.0
+[PFSP] CELL 24/120 ta006 TS/TS25 best=1210 mean=1210.0 gap=1.26% | elapsed 0:05:22 | ETA 0:21:28
+
+-------- instance ------ ta007  (n=20, m=5)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1251.0
+:: Average        :: 1251.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 15 14 13 1 10 3 0 19 12 7 5 8 6 16 18 11 2 17 9  ::: 1251.0
+
+ 4 15 14 13 1 10 3 0 19 12 7 5 8 6 16 18 11 2 17 9  ::: 1251.0
+[PFSP] CELL 25/120 ta007 TS/TS3 best=1251 mean=1251.0 gap=1.38% | elapsed 0:05:34 | ETA 0:21:12
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1251.0
+:: Average        :: 1251.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 15 14 13 1 10 3 0 19 12 7 5 8 6 16 18 11 2 17 9  ::: 1251.0
+
+ 4 15 14 13 1 10 3 0 19 12 7 5 8 6 16 18 11 2 17 9  ::: 1251.0
+[PFSP] CELL 26/120 ta007 TS/TSc best=1251 mean=1251.0 gap=1.38% | elapsed 0:05:48 | ETA 0:20:59
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1251.0
+:: Average        :: 1251.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 15 14 13 1 10 3 0 19 12 7 5 8 6 16 18 11 2 17 9  ::: 1251.0
+
+ 4 15 14 13 1 10 3 0 19 12 7 5 8 6 16 18 11 2 17 9  ::: 1251.0
+[PFSP] CELL 27/120 ta007 TS/TS15 best=1251 mean=1251.0 gap=1.38% | elapsed 0:06:01 | ETA 0:20:45
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1251.0
+:: Average        :: 1251.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 15 14 13 1 10 3 0 19 12 7 5 8 6 16 18 11 2 17 9  ::: 1251.0
+
+ 4 15 14 13 1 10 3 0 19 12 7 5 8 6 16 18 11 2 17 9  ::: 1251.0
+[PFSP] CELL 28/120 ta007 TS/TS25 best=1251 mean=1251.0 gap=1.38% | elapsed 0:06:15 | ETA 0:20:33
+
+-------- instance ------ ta008  (n=20, m=5)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1212.0
+:: Average        :: 1212.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 16 11 15 8 1 13 9 17 3 18 6 7 5 12 4 19 14 0 2 10  ::: 1212.0
+
+ 16 11 15 8 1 13 9 17 3 18 6 7 5 12 4 19 14 0 2 10  ::: 1212.0
+[PFSP] CELL 29/120 ta008 TS/TS3 best=1212 mean=1212.0 gap=0.50% | elapsed 0:06:28 | ETA 0:20:18
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1212.0
+:: Average        :: 1212.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 16 11 15 8 1 13 9 17 3 18 6 7 5 12 4 19 14 0 2 10  ::: 1212.0
+
+ 16 11 15 8 1 13 9 17 3 18 6 7 5 12 4 19 14 0 2 10  ::: 1212.0
+[PFSP] CELL 30/120 ta008 TS/TSc best=1212 mean=1212.0 gap=0.50% | elapsed 0:06:41 | ETA 0:20:04
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1211.0
+:: Average        :: 1211.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 16 15 8 3 1 6 13 9 17 18 7 11 5 4 19 12 14 0 2 10  ::: 1211.0
+
+ 16 15 8 3 1 6 13 9 17 18 7 11 5 4 19 12 14 0 2 10  ::: 1211.0
+[PFSP] CELL 31/120 ta008 TS/TS15 best=1211 mean=1211.0 gap=0.41% | elapsed 0:06:54 | ETA 0:19:50
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1211.0
+:: Average        :: 1211.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 16 15 8 3 1 6 13 9 17 18 7 11 5 4 19 12 14 0 2 10  ::: 1211.0
+
+ 16 15 8 3 1 6 13 9 17 18 7 11 5 4 19 12 14 0 2 10  ::: 1211.0
+[PFSP] CELL 32/120 ta008 TS/TS25 best=1211 mean=1211.0 gap=0.41% | elapsed 0:07:07 | ETA 0:19:36
+
+-------- instance ------ ta009  (n=20, m=5)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1273.0
+:: Average        :: 1273.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 19 0 17 16 14 9 1 15 12 7 6 2 4 11 5 13 10 18 8  ::: 1273.0
+
+ 3 19 0 17 16 14 9 1 15 12 7 6 2 4 11 5 13 10 18 8  ::: 1273.0
+[PFSP] CELL 33/120 ta009 TS/TS3 best=1273 mean=1273.0 gap=3.50% | elapsed 0:07:20 | ETA 0:19:21
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1255.0
+:: Average        :: 1255.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 6 19 0 9 1 7 14 16 12 15 17 2 8 11 5 13 10 18 4  ::: 1255.0
+
+ 3 6 19 0 9 1 7 14 16 12 15 17 2 8 11 5 13 10 18 4  ::: 1255.0
+[PFSP] CELL 34/120 ta009 TS/TSc best=1255 mean=1255.0 gap=2.03% | elapsed 0:07:33 | ETA 0:19:06
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1254.0
+:: Average        :: 1254.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 6 7 17 9 1 0 19 14 2 15 16 12 8 11 5 13 10 18 4  ::: 1254.0
+
+ 3 6 7 17 9 1 0 19 14 2 15 16 12 8 11 5 13 10 18 4  ::: 1254.0
+[PFSP] CELL 35/120 ta009 TS/TS15 best=1254 mean=1254.0 gap=1.95% | elapsed 0:07:46 | ETA 0:18:53
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1254.0
+:: Average        :: 1254.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 6 7 17 9 1 0 19 14 2 15 16 12 8 11 5 13 10 18 4  ::: 1254.0
+
+ 3 6 7 17 9 1 0 19 14 2 15 16 12 8 11 5 13 10 18 4  ::: 1254.0
+[PFSP] CELL 36/120 ta009 TS/TS25 best=1254 mean=1254.0 gap=1.95% | elapsed 0:08:00 | ETA 0:18:40
+
+-------- instance ------ ta010  (n=20, m=5)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1151.0
+:: Average        :: 1151.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 6 18 10 11 15 5 0 12 9 14 1 7 2 3 17 13 16 4 19 8  ::: 1151.0
+
+ 6 18 10 11 15 5 0 12 9 14 1 7 2 3 17 13 16 4 19 8  ::: 1151.0
+[PFSP] CELL 37/120 ta010 TS/TS3 best=1151 mean=1151.0 gap=3.88% | elapsed 0:08:13 | ETA 0:18:26
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1151.0
+:: Average        :: 1151.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 6 18 10 11 15 5 0 12 9 14 1 7 2 3 17 13 16 4 19 8  ::: 1151.0
+
+ 6 18 10 11 15 5 0 12 9 14 1 7 2 3 17 13 16 4 19 8  ::: 1151.0
+[PFSP] CELL 38/120 ta010 TS/TSc best=1151 mean=1151.0 gap=3.88% | elapsed 0:08:26 | ETA 0:18:13
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1108.0
+:: Average        :: 1108.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 10 6 5 0 15 9 1 17 12 7 18 14 11 2 13 4 19 16 3 8  ::: 1108.0
+
+ 10 6 5 0 15 9 1 17 12 7 18 14 11 2 13 4 19 16 3 8  ::: 1108.0
+[PFSP] CELL 39/120 ta010 TS/TS15 best=1108 mean=1108.0 gap=0.00% | elapsed 0:08:40 | ETA 0:18:00
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1108.0
+:: Average        :: 1108.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 10 6 5 0 15 9 1 17 12 7 18 14 11 2 13 4 19 16 3 8  ::: 1108.0
+
+ 10 6 5 0 15 9 1 17 12 7 18 14 11 2 13 4 19 16 3 8  ::: 1108.0
+[PFSP] CELL 40/120 ta010 TS/TS25 best=1108 mean=1108.0 gap=0.00% | elapsed 0:08:54 | ETA 0:17:48
+
+-------- instance ------ ta011  (n=20, m=10)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1586.0
+:: Average        :: 1586.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 17 4 1 11 16 14 8 9 3 13 2 5 18 7 19 10 12 6 0 15  ::: 1586.0
+
+ 17 4 1 11 16 14 8 9 3 13 2 5 18 7 19 10 12 6 0 15  ::: 1586.0
+[PFSP] CELL 41/120 ta011 TS/TS3 best=1586 mean=1586.0 gap=0.25% | elapsed 0:09:17 | ETA 0:17:54
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1586.0
+:: Average        :: 1586.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 17 4 1 11 16 14 8 9 3 13 2 5 18 7 19 10 12 6 0 15  ::: 1586.0
+
+ 17 4 1 11 16 14 8 9 3 13 2 5 18 7 19 10 12 6 0 15  ::: 1586.0
+[PFSP] CELL 42/120 ta011 TS/TSc best=1586 mean=1586.0 gap=0.25% | elapsed 0:09:40 | ETA 0:17:58
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1586.0
+:: Average        :: 1586.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 17 4 1 11 16 14 8 9 3 13 2 5 18 7 19 10 12 6 0 15  ::: 1586.0
+
+ 17 4 1 11 16 14 8 9 3 13 2 5 18 7 19 10 12 6 0 15  ::: 1586.0
+[PFSP] CELL 43/120 ta011 TS/TS15 best=1586 mean=1586.0 gap=0.25% | elapsed 0:10:03 | ETA 0:18:00
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1586.0
+:: Average        :: 1586.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 17 4 1 11 16 14 8 9 3 13 2 5 18 7 19 10 12 6 0 15  ::: 1586.0
+
+ 17 4 1 11 16 14 8 9 3 13 2 5 18 7 19 10 12 6 0 15  ::: 1586.0
+[PFSP] CELL 44/120 ta011 TS/TS25 best=1586 mean=1586.0 gap=0.25% | elapsed 0:10:26 | ETA 0:18:02
+
+-------- instance ------ ta012  (n=20, m=10)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1695.0
+:: Average        :: 1695.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 16 11 18 14 4 12 8 10 19 9 1 0 5 6 2 3 17 15 7 13  ::: 1695.0
+
+ 16 11 18 14 4 12 8 10 19 9 1 0 5 6 2 3 17 15 7 13  ::: 1695.0
+[PFSP] CELL 45/120 ta012 TS/TS3 best=1695 mean=1695.0 gap=2.17% | elapsed 0:10:47 | ETA 0:17:59
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1695.0
+:: Average        :: 1695.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 16 11 18 14 4 12 8 10 19 9 1 0 5 6 2 3 17 15 7 13  ::: 1695.0
+
+ 16 11 18 14 4 12 8 10 19 9 1 0 5 6 2 3 17 15 7 13  ::: 1695.0
+[PFSP] CELL 46/120 ta012 TS/TSc best=1695 mean=1695.0 gap=2.17% | elapsed 0:11:09 | ETA 0:17:56
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1689.0
+:: Average        :: 1689.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 16 11 18 10 14 4 12 8 9 0 19 1 2 5 6 3 15 7 13 17  ::: 1689.0
+
+ 16 11 18 10 14 4 12 8 9 0 19 1 2 5 6 3 15 7 13 17  ::: 1689.0
+[PFSP] CELL 47/120 ta012 TS/TS15 best=1689 mean=1689.0 gap=1.81% | elapsed 0:11:29 | ETA 0:17:51
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1689.0
+:: Average        :: 1689.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 16 11 18 10 14 4 12 8 9 0 19 1 2 5 6 3 15 7 13 17  ::: 1689.0
+
+ 16 11 18 10 14 4 12 8 9 0 19 1 2 5 6 3 15 7 13 17  ::: 1689.0
+[PFSP] CELL 48/120 ta012 TS/TS25 best=1689 mean=1689.0 gap=1.81% | elapsed 0:11:50 | ETA 0:17:46
+
+-------- instance ------ ta013  (n=20, m=10)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1520.0
+:: Average        :: 1520.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 8 15 6 4 0 1 11 12 10 14 19 5 9 16 13 17 18 2 7  ::: 1520.0
+
+ 3 8 15 6 4 0 1 11 12 10 14 19 5 9 16 13 17 18 2 7  ::: 1520.0
+[PFSP] CELL 49/120 ta013 TS/TS3 best=1520 mean=1520.0 gap=1.60% | elapsed 0:12:11 | ETA 0:17:40
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1520.0
+:: Average        :: 1520.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 8 15 6 4 0 1 11 12 10 14 19 5 9 16 13 17 18 2 7  ::: 1520.0
+
+ 3 8 15 6 4 0 1 11 12 10 14 19 5 9 16 13 17 18 2 7  ::: 1520.0
+[PFSP] CELL 50/120 ta013 TS/TSc best=1520 mean=1520.0 gap=1.60% | elapsed 0:12:33 | ETA 0:17:34
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1519.0
+:: Average        :: 1519.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 8 15 6 1 0 4 11 12 10 14 19 5 9 16 13 17 18 2 7  ::: 1519.0
+
+ 3 8 15 6 1 0 4 11 12 10 14 19 5 9 16 13 17 18 2 7  ::: 1519.0
+[PFSP] CELL 51/120 ta013 TS/TS15 best=1519 mean=1519.0 gap=1.54% | elapsed 0:12:55 | ETA 0:17:28
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1520.0
+:: Average        :: 1520.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 8 15 6 4 0 1 11 12 10 14 19 5 9 16 13 17 18 2 7  ::: 1520.0
+
+ 3 8 15 6 4 0 1 11 12 10 14 19 5 9 16 13 17 18 2 7  ::: 1520.0
+[PFSP] CELL 52/120 ta013 TS/TS25 best=1520 mean=1520.0 gap=1.60% | elapsed 0:13:16 | ETA 0:17:21
+
+-------- instance ------ ta014  (n=20, m=10)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1406.0
+:: Average        :: 1406.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 8 12 19 17 3 15 14 0 9 1 10 6 7 5 11 13 16 18 4  ::: 1406.0
+
+ 2 8 12 19 17 3 15 14 0 9 1 10 6 7 5 11 13 16 18 4  ::: 1406.0
+[PFSP] CELL 53/120 ta014 TS/TS3 best=1406 mean=1406.0 gap=2.11% | elapsed 0:13:36 | ETA 0:17:12
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1406.0
+:: Average        :: 1406.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 8 12 19 17 3 15 14 0 9 1 10 6 7 5 11 13 16 18 4  ::: 1406.0
+
+ 2 8 12 19 17 3 15 14 0 9 1 10 6 7 5 11 13 16 18 4  ::: 1406.0
+[PFSP] CELL 54/120 ta014 TS/TSc best=1406 mean=1406.0 gap=2.11% | elapsed 0:13:58 | ETA 0:17:04
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1406.0
+:: Average        :: 1406.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 8 12 19 17 3 15 14 0 9 1 10 6 7 5 11 13 16 18 4  ::: 1406.0
+
+ 2 8 12 19 17 3 15 14 0 9 1 10 6 7 5 11 13 16 18 4  ::: 1406.0
+[PFSP] CELL 55/120 ta014 TS/TS15 best=1406 mean=1406.0 gap=2.11% | elapsed 0:14:18 | ETA 0:16:54
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1406.0
+:: Average        :: 1406.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 8 12 19 17 3 15 14 0 9 1 10 6 7 5 11 13 16 18 4  ::: 1406.0
+
+ 2 8 12 19 17 3 15 14 0 9 1 10 6 7 5 11 13 16 18 4  ::: 1406.0
+[PFSP] CELL 56/120 ta014 TS/TS25 best=1406 mean=1406.0 gap=2.11% | elapsed 0:14:39 | ETA 0:16:44
+
+-------- instance ------ ta015  (n=20, m=10)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1462.0
+:: Average        :: 1462.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 15 7 3 17 5 13 14 16 12 0 1 19 4 8 6 2 18 11 10 9  ::: 1462.0
+
+ 15 7 3 17 5 13 14 16 12 0 1 19 4 8 6 2 18 11 10 9  ::: 1462.0
+[PFSP] CELL 57/120 ta015 TS/TS3 best=1462 mean=1462.0 gap=3.03% | elapsed 0:15:00 | ETA 0:16:35
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1461.0
+:: Average        :: 1461.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 15 7 3 17 13 14 16 12 0 1 5 19 4 6 2 18 8 11 10 9  ::: 1461.0
+
+ 15 7 3 17 13 14 16 12 0 1 5 19 4 6 2 18 8 11 10 9  ::: 1461.0
+[PFSP] CELL 58/120 ta015 TS/TSc best=1461 mean=1461.0 gap=2.96% | elapsed 0:15:22 | ETA 0:16:25
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1442.0
+:: Average        :: 1442.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 15 7 3 12 17 13 14 2 0 16 1 5 19 9 6 4 10 18 8 11  ::: 1442.0
+
+ 15 7 3 12 17 13 14 2 0 16 1 5 19 9 6 4 10 18 8 11  ::: 1442.0
+[PFSP] CELL 59/120 ta015 TS/TS15 best=1442 mean=1442.0 gap=1.62% | elapsed 0:15:43 | ETA 0:16:15
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1442.0
+:: Average        :: 1442.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 15 7 3 12 17 13 14 2 0 16 1 5 19 9 6 4 10 18 8 11  ::: 1442.0
+
+ 15 7 3 12 17 13 14 2 0 16 1 5 19 9 6 4 10 18 8 11  ::: 1442.0
+[PFSP] CELL 60/120 ta015 TS/TS25 best=1442 mean=1442.0 gap=1.62% | elapsed 0:16:04 | ETA 0:16:04
+
+-------- instance ------ ta016  (n=20, m=10)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1441.0
+:: Average        :: 1441.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 19 7 18 17 15 10 13 2 5 4 12 3 6 14 11 16 9 8 1 0  ::: 1441.0
+
+ 19 7 18 17 15 10 13 2 5 4 12 3 6 14 11 16 9 8 1 0  ::: 1441.0
+[PFSP] CELL 61/120 ta016 TS/TS3 best=1441 mean=1441.0 gap=3.15% | elapsed 0:16:25 | ETA 0:15:53
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1431.0
+:: Average        :: 1431.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 19 7 18 2 6 17 10 13 5 15 4 12 3 16 14 9 11 8 1 0  ::: 1431.0
+
+ 19 7 18 2 6 17 10 13 5 15 4 12 3 16 14 9 11 8 1 0  ::: 1431.0
+[PFSP] CELL 62/120 ta016 TS/TSc best=1431 mean=1431.0 gap=2.43% | elapsed 0:16:47 | ETA 0:15:42
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1422.0
+:: Average        :: 1422.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 19 2 6 7 17 10 13 5 4 18 12 3 9 11 8 16 15 14 1 0  ::: 1422.0
+
+ 19 2 6 7 17 10 13 5 4 18 12 3 9 11 8 16 15 14 1 0  ::: 1422.0
+[PFSP] CELL 63/120 ta016 TS/TS15 best=1422 mean=1422.0 gap=1.79% | elapsed 0:17:08 | ETA 0:15:30
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1422.0
+:: Average        :: 1422.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 19 2 6 7 17 10 13 5 4 18 12 3 9 11 8 16 15 14 1 0  ::: 1422.0
+
+ 19 2 6 7 17 10 13 5 4 18 12 3 9 11 8 16 15 14 1 0  ::: 1422.0
+[PFSP] CELL 64/120 ta016 TS/TS25 best=1422 mean=1422.0 gap=1.79% | elapsed 0:17:29 | ETA 0:15:18
+
+-------- instance ------ ta017  (n=20, m=10)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1526.0
+:: Average        :: 1526.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 18 5 6 8 9 16 0 3 19 17 7 1 4 15 13 14 12 2 10 11  ::: 1526.0
+
+ 18 5 6 8 9 16 0 3 19 17 7 1 4 15 13 14 12 2 10 11  ::: 1526.0
+[PFSP] CELL 65/120 ta017 TS/TS3 best=1526 mean=1526.0 gap=2.83% | elapsed 0:17:50 | ETA 0:15:06
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1526.0
+:: Average        :: 1526.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 18 5 6 8 9 16 0 3 19 17 7 1 4 15 13 14 12 2 10 11  ::: 1526.0
+
+ 18 5 6 8 9 16 0 3 19 17 7 1 4 15 13 14 12 2 10 11  ::: 1526.0
+[PFSP] CELL 66/120 ta017 TS/TSc best=1526 mean=1526.0 gap=2.83% | elapsed 0:18:11 | ETA 0:14:53
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1526.0
+:: Average        :: 1526.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 18 5 6 8 9 16 0 3 19 17 7 1 4 15 13 14 12 2 10 11  ::: 1526.0
+
+ 18 5 6 8 9 16 0 3 19 17 7 1 4 15 13 14 12 2 10 11  ::: 1526.0
+[PFSP] CELL 67/120 ta017 TS/TS15 best=1526 mean=1526.0 gap=2.83% | elapsed 0:18:32 | ETA 0:14:40
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1526.0
+:: Average        :: 1526.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 18 5 6 8 9 16 0 3 19 17 7 1 4 15 13 14 12 2 10 11  ::: 1526.0
+
+ 18 5 6 8 9 16 0 3 19 17 7 1 4 15 13 14 12 2 10 11  ::: 1526.0
+[PFSP] CELL 68/120 ta017 TS/TS25 best=1526 mean=1526.0 gap=2.83% | elapsed 0:18:53 | ETA 0:14:26
+
+-------- instance ------ ta018  (n=20, m=10)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1579.0
+:: Average        :: 1579.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 7 6 17 13 3 15 16 1 4 8 18 2 12 5 10 0 14 19 9 11  ::: 1579.0
+
+ 7 6 17 13 3 15 16 1 4 8 18 2 12 5 10 0 14 19 9 11  ::: 1579.0
+[PFSP] CELL 69/120 ta018 TS/TS3 best=1579 mean=1579.0 gap=2.67% | elapsed 0:19:14 | ETA 0:14:13
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1572.0
+:: Average        :: 1572.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 7 6 17 1 3 15 16 13 4 8 18 2 12 5 10 0 14 19 9 11  ::: 1572.0
+
+ 7 6 17 1 3 15 16 13 4 8 18 2 12 5 10 0 14 19 9 11  ::: 1572.0
+[PFSP] CELL 70/120 ta018 TS/TSc best=1572 mean=1572.0 gap=2.21% | elapsed 0:19:35 | ETA 0:13:59
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1572.0
+:: Average        :: 1572.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 7 6 17 1 3 15 16 13 4 8 18 2 12 5 10 0 14 19 9 11  ::: 1572.0
+
+ 7 6 17 1 3 15 16 13 4 8 18 2 12 5 10 0 14 19 9 11  ::: 1572.0
+[PFSP] CELL 71/120 ta018 TS/TS15 best=1572 mean=1572.0 gap=2.21% | elapsed 0:19:56 | ETA 0:13:46
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1553.0
+:: Average        :: 1553.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 7 6 17 1 8 3 19 14 18 15 13 0 16 2 9 4 10 12 5 11  ::: 1553.0
+
+ 7 6 17 1 8 3 19 14 18 15 13 0 16 2 9 4 10 12 5 11  ::: 1553.0
+[PFSP] CELL 72/120 ta018 TS/TS25 best=1553 mean=1553.0 gap=0.98% | elapsed 0:20:18 | ETA 0:13:32
+
+-------- instance ------ ta019  (n=20, m=10)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1624.0
+:: Average        :: 1624.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 11 7 13 16 10 19 3 18 1 15 2 12 0 17 6 14 9 4 5 8  ::: 1624.0
+
+ 11 7 13 16 10 19 3 18 1 15 2 12 0 17 6 14 9 4 5 8  ::: 1624.0
+[PFSP] CELL 73/120 ta019 TS/TS3 best=1624 mean=1624.0 gap=1.95% | elapsed 0:20:39 | ETA 0:13:17
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1619.0
+:: Average        :: 1619.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 11 7 19 13 16 10 6 3 18 15 17 1 12 0 2 14 9 4 5 8  ::: 1619.0
+
+ 11 7 19 13 16 10 6 3 18 15 17 1 12 0 2 14 9 4 5 8  ::: 1619.0
+[PFSP] CELL 74/120 ta019 TS/TSc best=1619 mean=1619.0 gap=1.63% | elapsed 0:21:00 | ETA 0:13:03
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1612.0
+:: Average        :: 1612.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 11 7 10 19 13 16 3 6 14 15 1 18 9 0 2 12 17 4 5 8  ::: 1612.0
+
+ 11 7 10 19 13 16 3 6 14 15 1 18 9 0 2 12 17 4 5 8  ::: 1612.0
+[PFSP] CELL 75/120 ta019 TS/TS15 best=1612 mean=1612.0 gap=1.19% | elapsed 0:21:21 | ETA 0:12:48
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1612.0
+:: Average        :: 1612.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 11 7 10 19 13 16 3 6 14 15 1 18 9 0 2 12 17 4 5 8  ::: 1612.0
+
+ 11 7 10 19 13 16 3 6 14 15 1 18 9 0 2 12 17 4 5 8  ::: 1612.0
+[PFSP] CELL 76/120 ta019 TS/TS25 best=1612 mean=1612.0 gap=1.19% | elapsed 0:21:42 | ETA 0:12:34
+
+-------- instance ------ ta020  (n=20, m=10)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1636.0
+:: Average        :: 1636.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 12 16 18 8 3 6 7 15 5 1 2 9 17 0 14 19 10 11 13  ::: 1636.0
+
+ 4 12 16 18 8 3 6 7 15 5 1 2 9 17 0 14 19 10 11 13  ::: 1636.0
+[PFSP] CELL 77/120 ta020 TS/TS3 best=1636 mean=1636.0 gap=2.83% | elapsed 0:22:04 | ETA 0:12:19
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1626.0
+:: Average        :: 1626.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 12 8 16 3 18 7 15 5 6 1 2 9 17 0 14 19 10 11 13  ::: 1626.0
+
+ 4 12 8 16 3 18 7 15 5 6 1 2 9 17 0 14 19 10 11 13  ::: 1626.0
+[PFSP] CELL 78/120 ta020 TS/TSc best=1626 mean=1626.0 gap=2.20% | elapsed 0:22:25 | ETA 0:12:04
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1626.0
+:: Average        :: 1626.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 12 8 16 3 18 7 15 5 6 1 2 9 17 0 14 19 10 11 13  ::: 1626.0
+
+ 4 12 8 16 3 18 7 15 5 6 1 2 9 17 0 14 19 10 11 13  ::: 1626.0
+[PFSP] CELL 79/120 ta020 TS/TS15 best=1626 mean=1626.0 gap=2.20% | elapsed 0:22:46 | ETA 0:11:49
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 1618.0
+:: Average        :: 1618.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 16 8 3 18 12 7 5 15 6 9 1 2 17 13 14 19 0 10 11  ::: 1618.0
+
+ 4 16 8 3 18 12 7 5 15 6 9 1 2 17 13 14 19 0 10 11  ::: 1618.0
+[PFSP] CELL 80/120 ta020 TS/TS25 best=1618 mean=1618.0 gap=1.70% | elapsed 0:23:07 | ETA 0:11:33
+
+-------- instance ------ ta021  (n=20, m=20)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2324.0
+:: Average        :: 2324.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 15 7 8 11 12 17 14 9 1 10 4 0 19 13 5 6 16 18 2 3  ::: 2324.0
+
+ 15 7 8 11 12 17 14 9 1 10 4 0 19 13 5 6 16 18 2 3  ::: 2324.0
+[PFSP] CELL 81/120 ta021 TS/TS3 best=2324 mean=2324.0 gap=1.18% | elapsed 0:23:46 | ETA 0:11:26
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2324.0
+:: Average        :: 2324.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 15 7 8 11 12 17 14 9 1 10 4 0 19 13 5 6 16 18 2 3  ::: 2324.0
+
+ 15 7 8 11 12 17 14 9 1 10 4 0 19 13 5 6 16 18 2 3  ::: 2324.0
+[PFSP] CELL 82/120 ta021 TS/TSc best=2324 mean=2324.0 gap=1.18% | elapsed 0:24:25 | ETA 0:11:19
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2322.0
+:: Average        :: 2322.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 15 17 4 9 7 12 8 14 1 0 19 10 13 5 11 6 16 18 2 3  ::: 2322.0
+
+ 15 17 4 9 7 12 8 14 1 0 19 10 13 5 11 6 16 18 2 3  ::: 2322.0
+[PFSP] CELL 83/120 ta021 TS/TS15 best=2322 mean=2322.0 gap=1.09% | elapsed 0:25:03 | ETA 0:11:10
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2322.0
+:: Average        :: 2322.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 15 17 4 9 7 12 8 14 1 0 19 10 13 5 11 6 16 18 2 3  ::: 2322.0
+
+ 15 17 4 9 7 12 8 14 1 0 19 10 13 5 11 6 16 18 2 3  ::: 2322.0
+[PFSP] CELL 84/120 ta021 TS/TS25 best=2322 mean=2322.0 gap=1.09% | elapsed 0:25:42 | ETA 0:11:01
+
+-------- instance ------ ta022  (n=20, m=20)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2119.0
+:: Average        :: 2119.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 17 2 10 9 3 11 4 18 12 0 15 14 5 13 7 19 8 6 16 1  ::: 2119.0
+
+ 17 2 10 9 3 11 4 18 12 0 15 14 5 13 7 19 8 6 16 1  ::: 2119.0
+[PFSP] CELL 85/120 ta022 TS/TS3 best=2119 mean=2119.0 gap=0.95% | elapsed 0:26:21 | ETA 0:10:51
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2119.0
+:: Average        :: 2119.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 17 2 10 9 3 11 4 18 12 0 15 14 5 13 7 19 8 6 16 1  ::: 2119.0
+
+ 17 2 10 9 3 11 4 18 12 0 15 14 5 13 7 19 8 6 16 1  ::: 2119.0
+[PFSP] CELL 86/120 ta022 TS/TSc best=2119 mean=2119.0 gap=0.95% | elapsed 0:26:59 | ETA 0:10:40
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2119.0
+:: Average        :: 2119.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 17 2 10 9 3 11 4 18 12 0 15 14 5 13 7 19 8 6 16 1  ::: 2119.0
+
+ 17 2 10 9 3 11 4 18 12 0 15 14 5 13 7 19 8 6 16 1  ::: 2119.0
+[PFSP] CELL 87/120 ta022 TS/TS15 best=2119 mean=2119.0 gap=0.95% | elapsed 0:27:37 | ETA 0:10:28
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2119.0
+:: Average        :: 2119.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 17 2 10 9 3 11 4 18 12 0 15 14 5 13 7 19 8 6 16 1  ::: 2119.0
+
+ 17 2 10 9 3 11 4 18 12 0 15 14 5 13 7 19 8 6 16 1  ::: 2119.0
+[PFSP] CELL 88/120 ta022 TS/TS25 best=2119 mean=2119.0 gap=0.95% | elapsed 0:28:16 | ETA 0:10:16
+
+-------- instance ------ ta023  (n=20, m=20)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2357.0
+:: Average        :: 2357.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 7 4 18 3 19 13 10 12 0 15 5 8 17 2 11 14 16 9 1 6  ::: 2357.0
+
+ 7 4 18 3 19 13 10 12 0 15 5 8 17 2 11 14 16 9 1 6  ::: 2357.0
+[PFSP] CELL 89/120 ta023 TS/TS3 best=2357 mean=2357.0 gap=1.33% | elapsed 0:28:54 | ETA 0:10:04
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2340.0
+:: Average        :: 2340.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 18 3 13 19 15 7 0 12 10 8 17 2 11 14 5 16 9 1 6  ::: 2340.0
+
+ 4 18 3 13 19 15 7 0 12 10 8 17 2 11 14 5 16 9 1 6  ::: 2340.0
+[PFSP] CELL 90/120 ta023 TS/TSc best=2340 mean=2340.0 gap=0.60% | elapsed 0:29:33 | ETA 0:09:51
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2340.0
+:: Average        :: 2340.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 18 3 13 19 15 7 0 12 10 8 17 2 11 14 5 16 9 1 6  ::: 2340.0
+
+ 4 18 3 13 19 15 7 0 12 10 8 17 2 11 14 5 16 9 1 6  ::: 2340.0
+[PFSP] CELL 91/120 ta023 TS/TS15 best=2340 mean=2340.0 gap=0.60% | elapsed 0:30:11 | ETA 0:09:37
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2340.0
+:: Average        :: 2340.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 4 18 3 13 19 15 7 0 12 10 8 17 2 11 14 5 16 9 1 6  ::: 2340.0
+
+ 4 18 3 13 19 15 7 0 12 10 8 17 2 11 14 5 16 9 1 6  ::: 2340.0
+[PFSP] CELL 92/120 ta023 TS/TS25 best=2340 mean=2340.0 gap=0.60% | elapsed 0:30:51 | ETA 0:09:23
+
+-------- instance ------ ta024  (n=20, m=20)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2249.0
+:: Average        :: 2249.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 13 2 17 4 12 1 7 11 3 5 19 14 0 6 18 15 9 16 8 10  ::: 2249.0
+
+ 13 2 17 4 12 1 7 11 3 5 19 14 0 6 18 15 9 16 8 10  ::: 2249.0
+[PFSP] CELL 93/120 ta024 TS/TS3 best=2249 mean=2249.0 gap=1.17% | elapsed 0:31:29 | ETA 0:09:08
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2245.0
+:: Average        :: 2245.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 13 17 4 1 7 5 19 14 12 0 11 6 18 15 3 2 16 8 10 9  ::: 2245.0
+
+ 13 17 4 1 7 5 19 14 12 0 11 6 18 15 3 2 16 8 10 9  ::: 2245.0
+[PFSP] CELL 94/120 ta024 TS/TSc best=2245 mean=2245.0 gap=0.99% | elapsed 0:32:08 | ETA 0:08:53
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2244.0
+:: Average        :: 2244.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 13 2 17 4 1 3 5 19 7 14 12 11 0 6 18 15 9 8 16 10  ::: 2244.0
+
+ 13 2 17 4 1 3 5 19 7 14 12 11 0 6 18 15 9 8 16 10  ::: 2244.0
+[PFSP] CELL 95/120 ta024 TS/TS15 best=2244 mean=2244.0 gap=0.94% | elapsed 0:32:47 | ETA 0:08:37
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2244.0
+:: Average        :: 2244.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 13 2 17 4 1 3 5 19 7 14 12 11 0 6 18 15 9 8 16 10  ::: 2244.0
+
+ 13 2 17 4 1 3 5 19 7 14 12 11 0 6 18 15 9 8 16 10  ::: 2244.0
+[PFSP] CELL 96/120 ta024 TS/TS25 best=2244 mean=2244.0 gap=0.94% | elapsed 0:33:25 | ETA 0:08:21
+
+-------- instance ------ ta025  (n=20, m=20)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2359.0
+:: Average        :: 2359.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 9 8 18 14 12 4 1 2 17 10 11 16 3 13 19 0 15 7 6 5  ::: 2359.0
+
+ 9 8 18 14 12 4 1 2 17 10 11 16 3 13 19 0 15 7 6 5  ::: 2359.0
+[PFSP] CELL 97/120 ta025 TS/TS3 best=2359 mean=2359.0 gap=2.97% | elapsed 0:34:04 | ETA 0:08:04
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2359.0
+:: Average        :: 2359.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 9 8 18 14 12 4 1 2 17 10 11 16 3 13 19 0 15 7 6 5  ::: 2359.0
+
+ 9 8 18 14 12 4 1 2 17 10 11 16 3 13 19 0 15 7 6 5  ::: 2359.0
+[PFSP] CELL 98/120 ta025 TS/TSc best=2359 mean=2359.0 gap=2.97% | elapsed 0:34:42 | ETA 0:07:47
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2359.0
+:: Average        :: 2359.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 9 8 18 14 12 4 1 2 17 10 11 16 3 13 19 0 15 7 6 5  ::: 2359.0
+
+ 9 8 18 14 12 4 1 2 17 10 11 16 3 13 19 0 15 7 6 5  ::: 2359.0
+[PFSP] CELL 99/120 ta025 TS/TS15 best=2359 mean=2359.0 gap=2.97% | elapsed 0:35:22 | ETA 0:07:30
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2322.0
+:: Average        :: 2322.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 9 1 14 18 2 10 17 8 16 4 12 3 19 0 11 15 6 13 7 5  ::: 2322.0
+
+ 9 1 14 18 2 10 17 8 16 4 12 3 19 0 11 15 6 13 7 5  ::: 2322.0
+[PFSP] CELL 100/120 ta025 TS/TS25 best=2322 mean=2322.0 gap=1.35% | elapsed 0:36:01 | ETA 0:07:12
+
+-------- instance ------ ta026  (n=20, m=20)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2267.0
+:: Average        :: 2267.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 5 7 19 17 16 14 9 1 12 4 8 0 2 6 11 3 10 18 13 15  ::: 2267.0
+
+ 5 7 19 17 16 14 9 1 12 4 8 0 2 6 11 3 10 18 13 15  ::: 2267.0
+[PFSP] CELL 101/120 ta026 TS/TS3 best=2267 mean=2267.0 gap=1.84% | elapsed 0:36:40 | ETA 0:06:54
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2267.0
+:: Average        :: 2267.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 5 7 19 17 16 14 9 1 12 4 8 0 2 6 11 3 10 18 13 15  ::: 2267.0
+
+ 5 7 19 17 16 14 9 1 12 4 8 0 2 6 11 3 10 18 13 15  ::: 2267.0
+[PFSP] CELL 102/120 ta026 TS/TSc best=2267 mean=2267.0 gap=1.84% | elapsed 0:37:18 | ETA 0:06:35
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2267.0
+:: Average        :: 2267.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 5 7 19 17 16 14 9 1 12 4 8 0 2 6 11 3 10 18 13 15  ::: 2267.0
+
+ 5 7 19 17 16 14 9 1 12 4 8 0 2 6 11 3 10 18 13 15  ::: 2267.0
+[PFSP] CELL 103/120 ta026 TS/TS15 best=2267 mean=2267.0 gap=1.84% | elapsed 0:37:57 | ETA 0:06:15
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2241.0
+:: Average        :: 2241.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 17 5 12 7 19 14 9 1 4 8 0 16 2 6 11 10 3 15 13 18  ::: 2241.0
+
+ 17 5 12 7 19 14 9 1 4 8 0 16 2 6 11 10 3 15 13 18  ::: 2241.0
+[PFSP] CELL 104/120 ta026 TS/TS25 best=2241 mean=2241.0 gap=0.67% | elapsed 0:38:36 | ETA 0:05:56
+
+-------- instance ------ ta027  (n=20, m=20)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2308.0
+:: Average        :: 2308.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 9 11 15 10 13 7 4 19 18 17 0 3 5 14 8 6 16 1 2 12  ::: 2308.0
+
+ 9 11 15 10 13 7 4 19 18 17 0 3 5 14 8 6 16 1 2 12  ::: 2308.0
+[PFSP] CELL 105/120 ta027 TS/TS3 best=2308 mean=2308.0 gap=1.54% | elapsed 0:39:08 | ETA 0:05:35
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2308.0
+:: Average        :: 2308.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 9 11 15 10 13 7 4 19 18 17 0 3 5 14 8 6 16 1 2 12  ::: 2308.0
+
+ 9 11 15 10 13 7 4 19 18 17 0 3 5 14 8 6 16 1 2 12  ::: 2308.0
+[PFSP] CELL 106/120 ta027 TS/TSc best=2308 mean=2308.0 gap=1.54% | elapsed 0:39:44 | ETA 0:05:14
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2293.0
+:: Average        :: 2293.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 9 11 4 10 6 13 15 18 1 19 7 17 3 5 14 8 0 2 16 12  ::: 2293.0
+
+ 9 11 4 10 6 13 15 18 1 19 7 17 3 5 14 8 0 2 16 12  ::: 2293.0
+[PFSP] CELL 107/120 ta027 TS/TS15 best=2293 mean=2293.0 gap=0.88% | elapsed 0:40:17 | ETA 0:04:53
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2293.0
+:: Average        :: 2293.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 9 11 4 10 6 13 15 18 1 19 7 17 3 5 14 8 0 2 16 12  ::: 2293.0
+
+ 9 11 4 10 6 13 15 18 1 19 7 17 3 5 14 8 0 2 16 12  ::: 2293.0
+[PFSP] CELL 108/120 ta027 TS/TS25 best=2293 mean=2293.0 gap=0.88% | elapsed 0:40:36 | ETA 0:04:30
+
+-------- instance ------ ta028  (n=20, m=20)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2231.0
+:: Average        :: 2231.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 1 15 9 19 5 0 4 13 6 8 12 2 16 18 10 7 17 14 11  ::: 2231.0
+
+ 3 1 15 9 19 5 0 4 13 6 8 12 2 16 18 10 7 17 14 11  ::: 2231.0
+[PFSP] CELL 109/120 ta028 TS/TS3 best=2231 mean=2231.0 gap=1.41% | elapsed 0:40:58 | ETA 0:04:08
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2231.0
+:: Average        :: 2231.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 1 15 9 19 5 0 4 13 6 8 12 2 16 18 10 7 17 14 11  ::: 2231.0
+
+ 3 1 15 9 19 5 0 4 13 6 8 12 2 16 18 10 7 17 14 11  ::: 2231.0
+[PFSP] CELL 110/120 ta028 TS/TSc best=2231 mean=2231.0 gap=1.41% | elapsed 0:41:27 | ETA 0:03:46
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2231.0
+:: Average        :: 2231.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 1 15 9 19 5 0 4 13 6 8 12 2 16 18 10 7 17 14 11  ::: 2231.0
+
+ 3 1 15 9 19 5 0 4 13 6 8 12 2 16 18 10 7 17 14 11  ::: 2231.0
+[PFSP] CELL 111/120 ta028 TS/TS15 best=2231 mean=2231.0 gap=1.41% | elapsed 0:41:52 | ETA 0:03:23
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2221.0
+:: Average        :: 2221.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 3 1 15 9 19 4 0 5 12 10 13 7 6 8 2 16 18 17 14 11  ::: 2221.0
+
+ 3 1 15 9 19 4 0 5 12 10 13 7 6 8 2 16 18 17 14 11  ::: 2221.0
+[PFSP] CELL 112/120 ta028 TS/TS25 best=2221 mean=2221.0 gap=0.95% | elapsed 0:42:14 | ETA 0:03:01
+
+-------- instance ------ ta029  (n=20, m=20)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2276.0
+:: Average        :: 2276.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 0 16 7 1 12 13 6 2 9 5 14 17 3 8 11 19 10 15 18 4  ::: 2276.0
+
+ 0 16 7 1 12 13 6 2 9 5 14 17 3 8 11 19 10 15 18 4  ::: 2276.0
+[PFSP] CELL 113/120 ta029 TS/TS3 best=2276 mean=2276.0 gap=1.74% | elapsed 0:42:58 | ETA 0:02:39
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2276.0
+:: Average        :: 2276.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 0 16 7 1 12 13 6 2 9 5 14 17 3 8 11 19 10 15 18 4  ::: 2276.0
+
+ 0 16 7 1 12 13 6 2 9 5 14 17 3 8 11 19 10 15 18 4  ::: 2276.0
+[PFSP] CELL 114/120 ta029 TS/TSc best=2276 mean=2276.0 gap=1.74% | elapsed 0:43:33 | ETA 0:02:17
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2273.0
+:: Average        :: 2273.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 0 16 13 6 12 7 2 1 9 5 14 17 8 11 3 19 10 15 4 18  ::: 2273.0
+
+ 0 16 13 6 12 7 2 1 9 5 14 17 8 11 3 19 10 15 4 18  ::: 2273.0
+[PFSP] CELL 115/120 ta029 TS/TS15 best=2273 mean=2273.0 gap=1.61% | elapsed 0:43:57 | ETA 0:01:54
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2250.0
+:: Average        :: 2250.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 0 16 7 13 1 12 19 6 10 9 5 3 17 14 8 11 2 15 18 4  ::: 2250.0
+
+ 0 16 7 13 1 12 19 6 10 9 5 3 17 14 8 11 2 15 18 4  ::: 2250.0
+[PFSP] CELL 116/120 ta029 TS/TS25 best=2250 mean=2250.0 gap=0.58% | elapsed 0:44:18 | ETA 0:01:31
+
+-------- instance ------ ta030  (n=20, m=20)
+
+---------------------- TS --- TS3
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS3[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2232.0
+:: Average        :: 2232.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 5 2 16 7 6 1 10 18 14 11 8 9 15 12 4 17 0 3 19 13  ::: 2232.0
+
+ 5 2 16 7 6 1 10 18 14 11 8 9 15 12 4 17 0 3 19 13  ::: 2232.0
+[PFSP] CELL 117/120 ta030 TS/TS3 best=2232 mean=2232.0 gap=2.48% | elapsed 0:44:39 | ETA 0:01:08
+
+---------------------- TS --- TSc
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TSc[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2219.0
+:: Average        :: 2219.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 6 5 16 7 1 10 18 14 11 8 9 15 12 4 17 0 3 19 13  ::: 2219.0
+
+ 2 6 5 16 7 1 10 18 14 11 8 9 15 12 4 17 0 3 19 13  ::: 2219.0
+[PFSP] CELL 118/120 ta030 TS/TSc best=2219 mean=2219.0 gap=1.88% | elapsed 0:45:02 | ETA 0:00:45
+
+---------------------- TS --- TS15
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS15[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2219.0
+:: Average        :: 2219.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 6 5 16 7 1 10 18 14 11 8 9 15 12 4 17 0 3 19 13  ::: 2219.0
+
+ 2 6 5 16 7 1 10 18 14 11 8 9 15 12 4 17 0 3 19 13  ::: 2219.0
+[PFSP] CELL 119/120 ta030 TS/TS15 best=2219 mean=2219.0 gap=1.88% | elapsed 0:45:32 | ETA 0:00:22
+
+---------------------- TS --- TS25
+
+ Experiments to TS
+ 0
+
+
+:: Metaheuristic :: TS---TS25[50000]  
+:: N. Experiment.:: 1
+-----------------------------------
+:: Better fitness :: 2191.0
+:: Average        :: 2191.0
+:: St. Deviation  :: 0.0
+:: Better Solution in the experiment :: 1
+:: N. Better Solution :: 1
+ 2 6 16 18 11 5 8 9 12 15 1 4 10 14 7 17 0 3 19 13  ::: 2191.0
+
+ 2 6 16 18 11 5 8 9 12 15 1 4 10 14 7 17 0 3 19 13  ::: 2191.0
+[PFSP] CELL 120/120 ta030 TS/TS25 best=2191 mean=2191.0 gap=0.60% | elapsed 0:46:32 | ETA 0:00:00
+[PFSP] STATS todas las celdas completas en 0:46:32; analisis estadistico
+
+:: Instance :: ta001
+:: Known optimum :: 1278.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1286.0000   1        1286.0000   0.0000      0.63      0.63      0.00      
+TS---TSc[50000]         1286.0000   1        1286.0000   0.0000      0.63      0.63      0.00      
+TS---TS15[50000]        1286.0000   1        1286.0000   0.0000      0.63      0.63      0.00      
+TS---TS25[50000]        1286.0000   1        1286.0000   0.0000      0.63      0.63      0.00      
+
+:: Instance :: ta002
+:: Known optimum :: 1359.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1359.0000   1        1359.0000   0.0000      0.00      0.44      0.44      
+TS---TSc[50000]         1359.0000   1        1359.0000   0.0000      0.00      0.44      0.44      
+TS---TS15[50000]        1359.0000   1        1359.0000   0.0000      0.00      0.44      0.44      
+TS---TS25[50000]        1359.0000   1        1359.0000   0.0000      0.00      0.44      0.44      
+
+:: Instance :: ta003
+:: Known optimum :: 1081.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1100.0000   1        1100.0000   0.0000      1.76      7.22      5.46      
+TS---TSc[50000]         1100.0000   1        1100.0000   0.0000      1.76      7.22      5.46      
+TS---TS15[50000]        1100.0000   1        1100.0000   0.0000      1.76      7.22      5.46      
+TS---TS25[50000]        1100.0000   1        1100.0000   0.0000      1.76      7.22      5.46      
+
+:: Instance :: ta004
+:: Known optimum :: 1293.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1302.0000   1        1302.0000   0.0000      0.70      2.47      1.78      
+TS---TSc[50000]         1302.0000   1        1302.0000   0.0000      0.70      2.47      1.78      
+TS---TS15[50000]        1302.0000   1        1302.0000   0.0000      0.70      2.47      1.78      
+TS---TS25[50000]        1302.0000   1        1302.0000   0.0000      0.70      2.47      1.78      
+
+:: Instance :: ta005
+:: Known optimum :: 1235.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1258.0000   1        1258.0000   0.0000      1.86      5.67      3.81      
+TS---TSc[50000]         1258.0000   1        1258.0000   0.0000      1.86      5.67      3.81      
+TS---TS15[50000]        1258.0000   1        1258.0000   0.0000      1.86      5.67      3.81      
+TS---TS25[50000]        1258.0000   1        1258.0000   0.0000      1.86      5.67      3.81      
+
+:: Instance :: ta006
+:: Known optimum :: 1195.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1210.0000   1        1210.0000   0.0000      1.26      2.76      1.51      
+TS---TSc[50000]         1210.0000   1        1210.0000   0.0000      1.26      2.76      1.51      
+TS---TS15[50000]        1210.0000   1        1210.0000   0.0000      1.26      2.76      1.51      
+TS---TS25[50000]        1210.0000   1        1210.0000   0.0000      1.26      2.76      1.51      
+
+:: Instance :: ta007
+:: Known optimum :: 1234.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1251.0000   1        1251.0000   0.0000      1.38      3.57      2.19      
+TS---TSc[50000]         1251.0000   1        1251.0000   0.0000      1.38      3.57      2.19      
+TS---TS15[50000]        1251.0000   1        1251.0000   0.0000      1.38      3.57      2.19      
+TS---TS25[50000]        1251.0000   1        1251.0000   0.0000      1.38      3.57      2.19      
+
+:: Instance :: ta008
+:: Known optimum :: 1206.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1212.0000   1        1212.0000   0.0000      0.50      1.41      0.91      
+TS---TSc[50000]         1212.0000   1        1212.0000   0.0000      0.50      1.41      0.91      
+TS---TS15[50000]        1211.0000   1        1211.0000   0.0000      0.41      1.41      1.00      
+TS---TS25[50000]        1211.0000   1        1211.0000   0.0000      0.41      1.41      1.00      
+
+:: Instance :: ta009
+:: Known optimum :: 1230.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1273.0000   1        1273.0000   0.0000      3.50      4.96      1.46      
+TS---TSc[50000]         1255.0000   1        1255.0000   0.0000      2.03      4.96      2.93      
+TS---TS15[50000]        1254.0000   1        1254.0000   0.0000      1.95      4.96      3.01      
+TS---TS25[50000]        1254.0000   1        1254.0000   0.0000      1.95      4.96      3.01      
+
+:: Instance :: ta010
+:: Known optimum :: 1108.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1151.0000   1        1151.0000   0.0000      3.88      3.88      0.00      
+TS---TSc[50000]         1151.0000   1        1151.0000   0.0000      3.88      3.88      0.00      
+TS---TS15[50000]        1108.0000   1        1108.0000   0.0000      0.00      3.88      3.88      
+TS---TS25[50000]        1108.0000   1        1108.0000   0.0000      0.00      3.88      3.88      
+
+:: Instance :: ta011
+:: Known optimum :: 1582.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1586.0000   1        1586.0000   0.0000      0.25      6.19      5.94      
+TS---TSc[50000]         1586.0000   1        1586.0000   0.0000      0.25      6.19      5.94      
+TS---TS15[50000]        1586.0000   1        1586.0000   0.0000      0.25      6.19      5.94      
+TS---TS25[50000]        1586.0000   1        1586.0000   0.0000      0.25      6.19      5.94      
+
+:: Instance :: ta012
+:: Known optimum :: 1659.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1695.0000   1        1695.0000   0.0000      2.17      4.22      2.05      
+TS---TSc[50000]         1695.0000   1        1695.0000   0.0000      2.17      4.22      2.05      
+TS---TS15[50000]        1689.0000   1        1689.0000   0.0000      1.81      4.22      2.41      
+TS---TS25[50000]        1689.0000   1        1689.0000   0.0000      1.81      4.22      2.41      
+
+:: Instance :: ta013
+:: Known optimum :: 1496.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1520.0000   1        1520.0000   0.0000      1.60      4.08      2.47      
+TS---TSc[50000]         1520.0000   1        1520.0000   0.0000      1.60      4.08      2.47      
+TS---TS15[50000]        1519.0000   1        1519.0000   0.0000      1.54      4.08      2.54      
+TS---TS25[50000]        1520.0000   1        1520.0000   0.0000      1.60      4.08      2.47      
+
+:: Instance :: ta014
+:: Known optimum :: 1377.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1406.0000   1        1406.0000   0.0000      2.11      4.50      2.40      
+TS---TSc[50000]         1406.0000   1        1406.0000   0.0000      2.11      4.50      2.40      
+TS---TS15[50000]        1406.0000   1        1406.0000   0.0000      2.11      4.50      2.40      
+TS---TS25[50000]        1406.0000   1        1406.0000   0.0000      2.11      4.50      2.40      
+
+:: Instance :: ta015
+:: Known optimum :: 1419.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1462.0000   1        1462.0000   0.0000      3.03      5.85      2.82      
+TS---TSc[50000]         1461.0000   1        1461.0000   0.0000      2.96      5.85      2.89      
+TS---TS15[50000]        1442.0000   1        1442.0000   0.0000      1.62      5.85      4.23      
+TS---TS25[50000]        1442.0000   1        1442.0000   0.0000      1.62      5.85      4.23      
+
+:: Instance :: ta016
+:: Known optimum :: 1397.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1441.0000   1        1441.0000   0.0000      3.15      4.01      0.86      
+TS---TSc[50000]         1431.0000   1        1431.0000   0.0000      2.43      4.01      1.57      
+TS---TS15[50000]        1422.0000   1        1422.0000   0.0000      1.79      4.01      2.22      
+TS---TS25[50000]        1422.0000   1        1422.0000   0.0000      1.79      4.01      2.22      
+
+:: Instance :: ta017
+:: Known optimum :: 1484.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1526.0000   1        1526.0000   0.0000      2.83      5.26      2.43      
+TS---TSc[50000]         1526.0000   1        1526.0000   0.0000      2.83      5.26      2.43      
+TS---TS15[50000]        1526.0000   1        1526.0000   0.0000      2.83      5.26      2.43      
+TS---TS25[50000]        1526.0000   1        1526.0000   0.0000      2.83      5.26      2.43      
+
+:: Instance :: ta018
+:: Known optimum :: 1538.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1579.0000   1        1579.0000   0.0000      2.67      4.62      1.95      
+TS---TSc[50000]         1572.0000   1        1572.0000   0.0000      2.21      4.62      2.41      
+TS---TS15[50000]        1572.0000   1        1572.0000   0.0000      2.21      4.62      2.41      
+TS---TS25[50000]        1553.0000   1        1553.0000   0.0000      0.98      4.62      3.64      
+
+:: Instance :: ta019
+:: Known optimum :: 1593.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1624.0000   1        1624.0000   0.0000      1.95      3.39      1.44      
+TS---TSc[50000]         1619.0000   1        1619.0000   0.0000      1.63      3.39      1.76      
+TS---TS15[50000]        1612.0000   1        1612.0000   0.0000      1.19      3.39      2.20      
+TS---TS25[50000]        1612.0000   1        1612.0000   0.0000      1.19      3.39      2.20      
+
+:: Instance :: ta020
+:: Known optimum :: 1591.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         1636.0000   1        1636.0000   0.0000      2.83      3.90      1.07      
+TS---TSc[50000]         1626.0000   1        1626.0000   0.0000      2.20      3.90      1.70      
+TS---TS15[50000]        1626.0000   1        1626.0000   0.0000      2.20      3.90      1.70      
+TS---TS25[50000]        1618.0000   1        1618.0000   0.0000      1.70      3.90      2.20      
+
+:: Instance :: ta021
+:: Known optimum :: 2297.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         2324.0000   1        2324.0000   0.0000      1.18      4.92      3.74      
+TS---TSc[50000]         2324.0000   1        2324.0000   0.0000      1.18      4.92      3.74      
+TS---TS15[50000]        2322.0000   1        2322.0000   0.0000      1.09      4.92      3.83      
+TS---TS25[50000]        2322.0000   1        2322.0000   0.0000      1.09      4.92      3.83      
+
+:: Instance :: ta022
+:: Known optimum :: 2099.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         2119.0000   1        2119.0000   0.0000      0.95      2.43      1.48      
+TS---TSc[50000]         2119.0000   1        2119.0000   0.0000      0.95      2.43      1.48      
+TS---TS15[50000]        2119.0000   1        2119.0000   0.0000      0.95      2.43      1.48      
+TS---TS25[50000]        2119.0000   1        2119.0000   0.0000      0.95      2.43      1.48      
+
+:: Instance :: ta023
+:: Known optimum :: 2326.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         2357.0000   1        2357.0000   0.0000      1.33      3.65      2.32      
+TS---TSc[50000]         2340.0000   1        2340.0000   0.0000      0.60      3.65      3.05      
+TS---TS15[50000]        2340.0000   1        2340.0000   0.0000      0.60      3.65      3.05      
+TS---TS25[50000]        2340.0000   1        2340.0000   0.0000      0.60      3.65      3.05      
+
+:: Instance :: ta024
+:: Known optimum :: 2223.0
+:: N. Experiment.:: 1C:\Users\Mafer\proyecto_seminario\MHP\statisticc\FriedmanImanHolm.py:164: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         2249.0000   1        2249.0000   0.0000      1.17      1.75      0.58      
+TS---TSc[50000]         2245.0000   1        2245.0000   0.0000      0.99      1.75      0.76      
+TS---TS15[50000]        2244.0000   1        2244.0000   0.0000      0.94      1.75      0.81      
+TS---TS25[50000]        2244.0000   1        2244.0000   0.0000      0.94      1.75      0.81      
+
+:: Instance :: ta025
+:: Known optimum :: 2291.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         2359.0000   1        2359.0000   0.0000      2.97      4.63      1.66      
+TS---TSc[50000]         2359.0000   1        2359.0000   0.0000      2.97      4.63      1.66      
+TS---TS15[50000]        2359.0000   1        2359.0000   0.0000      2.97      4.63      1.66      
+TS---TS25[50000]        2322.0000   1        2322.0000   0.0000      1.35      4.63      3.27      
+
+:: Instance :: ta026
+:: Known optimum :: 2226.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         2267.0000   1        2267.0000   0.0000      1.84      5.53      3.68      
+TS---TSc[50000]         2267.0000   1        2267.0000   0.0000      1.84      5.53      3.68      
+TS---TS15[50000]        2267.0000   1        2267.0000   0.0000      1.84      5.53      3.68      
+TS---TS25[50000]        2241.0000   1        2241.0000   0.0000      0.67      5.53      4.85      
+
+:: Instance :: ta027
+:: Known optimum :: 2273.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         2308.0000   1        2308.0000   0.0000      1.54      3.92      2.38      
+TS---TSc[50000]         2308.0000   1        2308.0000   0.0000      1.54      3.92      2.38      
+TS---TS15[50000]        2293.0000   1        2293.0000   0.0000      0.88      3.92      3.04      
+TS---TS25[50000]        2293.0000   1        2293.0000   0.0000      0.88      3.92      3.04      
+
+:: Instance :: ta028
+:: Known optimum :: 2200.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         2231.0000   1        2231.0000   0.0000      1.41      2.23      0.82      
+TS---TSc[50000]         2231.0000   1        2231.0000   0.0000      1.41      2.23      0.82      
+TS---TS15[50000]        2231.0000   1        2231.0000   0.0000      1.41      2.23      0.82      
+TS---TS25[50000]        2221.0000   1        2221.0000   0.0000      0.95      2.23      1.27      
+
+:: Instance :: ta029
+:: Known optimum :: 2237.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         2276.0000   1        2276.0000   0.0000      1.74      3.71      1.97      
+TS---TSc[50000]         2276.0000   1        2276.0000   0.0000      1.74      3.71      1.97      
+TS---TS15[50000]        2273.0000   1        2273.0000   0.0000      1.61      3.71      2.10      
+TS---TS25[50000]        2250.0000   1        2250.0000   0.0000      0.58      3.71      3.13      
+
+:: Instance :: ta030
+:: Known optimum :: 2178.0
+:: N. Experiment.:: 1
+---------------------------------------------------------------
+                        Better      N.Bet.   Mean        S.D.        Gap%      Start%    Delta     
+---------------------------------------------------------------
+TS---TS3[50000]         2232.0000   1        2232.0000   0.0000      2.48      4.55      2.07      
+TS---TSc[50000]         2219.0000   1        2219.0000   0.0000      1.88      4.55      2.66      
+TS---TS15[50000]        2219.0000   1        2219.0000   0.0000      1.88      4.55      2.66      
+TS---TS25[50000]        2191.0000   1        2191.0000   0.0000      0.60      4.55      3.95      
+
+
+:: Friedman input matrix :: 30 instancias x 4 series
+:: labels :: ['TS---TS3', 'TS---TSc', 'TS---TS15', 'TS---TS25']
+MIN
+
+Algorithms : 4 --- Instances : 30
+-----------------------------------------------
+
+Ranks Matrix   
+-----------------------------------------------
+[[2.5 2.5 2.5 2.5]
+ [2.5 2.5 2.5 2.5]
+ [2.5 2.5 2.5 2.5]
+ [2.5 2.5 2.5 2.5]
+ [2.5 2.5 2.5 2.5]
+ [2.5 2.5 2.5 2.5]
+ [2.5 2.5 2.5 2.5]
+ [3.5 3.5 1.5 1.5]
+ [4.  3.  1.5 1.5]
+ [3.5 3.5 1.5 1.5]
+ [2.5 2.5 2.5 2.5]
+ [3.5 3.5 1.5 1.5]
+ [3.  3.  1.  3. ]
+ [2.5 2.5 2.5 2.5]
+ [4.  3.  1.5 1.5]
+ [4.  3.  1.5 1.5]
+ [2.5 2.5 2.5 2.5]
+ [4.  2.5 2.5 1. ]
+ [4.  3.  1.5 1.5]
+ [4.  2.5 2.5 1. ]
+ [3.5 3.5 1.5 1.5]
+ [2.5 2.5 2.5 2.5]
+ [4.  2.  2.  2. ]
+ [4.  3.  1.5 1.5]
+ [3.  3.  3.  1. ]
+ [3.  3.  3.  1. ]
+ [3.5 3.5 1.5 1.5]
+ [3.  3.  3.  1. ]
+ [3.5 3.5 2.  1. ]
+ [4.  2.5 2.5 1. ]]
+
+Friedman Test
+-----------------------------------------------
+Friedman value = 22.07
+prob Chi-square function = 0.9999
+Calculate with degree = 3 and obtain critical value with one sided 
+Critical value = 7.8147   alpha = 0.05
+
+Iman-Davenport Test
+-----------------------------------------------
+Iman-Davenport  = 9.4219
+prob F-Function  = 1.0
+Calculate with degree = 3 X 87 and obtain critical value with one 
+	sided 
+Critical value = 2.7094   alpha = 0.05
+
+Holm Test
+-----------------------------------------------
+Control Algorithm TS---TS25
+[tenor p value] if tenor > value then there is differences (see @ 
+	symbol)
+-----------------------------------------------
+1 TS---TS15 ::: 0.95 - 0.05 p 0.1711
+2 TS---TSc ::: 3.05 - 0.025 p 0.0011 @
+3 TS---TS3 ::: 4.2 - 0.0167 p 0.0 @
+
+
+:: boxplot guardado en :: ./DATA/output/PFSP_ranks_boxplot.png
+[PFSP] DONE total 0:46:32
