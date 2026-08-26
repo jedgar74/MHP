@@ -1,0 +1,7 @@
+{
+	"tenure": 7,
+	"neighborhood": "INSERTION",
+	"tabuMode": "SOLUTION",
+	"aspiration": true,
+	"initialTypeSolution": "RANDOM"
+}
