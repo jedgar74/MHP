@@ -22,6 +22,8 @@ Con --log se escribe un fichero de progreso, una linea por celda
 	tail -f DATA/output/pfsp.log
 """
 
+import utils.transport
+import utils.session
 import sys
 import os
 
