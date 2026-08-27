@@ -1,4 +1,4 @@
-from agent.Agent import *
+from agent.Agent import * 
 from examples.JobSchedulingProblem import *
 from statisticc.Reporter import printer, getMatrix
 from statisticc.FriedmanImanHolm import FriedmanImanHolm
