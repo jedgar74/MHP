@@ -5,6 +5,10 @@ from statisticc.FriedmanImanHolm import FriedmanImanHolm
 import copy
 import time
 
+"""
+Algoritmo de Recocido creado por Samuel, si sirve, gracias a dios, si no sirve, gracias a mi
+"""
+
 def main():
     # Problema JSP
     problem = JobSchedulingProblem("instance_5_3.json")
