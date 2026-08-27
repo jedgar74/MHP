@@ -133,7 +133,13 @@ class SimulatingAnnealing (Heuristic):
 			return False 
  
  
-	def probabilityFunction(self, t, nf,  af) : 
+	def probabilityFunction(self, t, nf,  af) :
+		# Metropolis clasico: la probabilidad de aceptar un movimiento peor decae con T.
+		# MIN : peor vecino nf > af -> (af - nf) < 0 -> probabilidad en (0,1).
+		# MAX : peor vecino nf < af -> (nf - af) < 0 -> espejo; el signo original
+		#       daria (af-nf) > 0 -> probabilidad > 1 y OverflowError con T -> 0.
+		if self.objProblem.typeProblem == "MAX" :
+			return math.exp((nf - af) / t);
 		return math.exp((af - nf) / t);
 	 
 	 
@@ -145,7 +151,7 @@ class SimulatingAnnealing (Heuristic):
 		"""
 		if  self.parameters.get('omega') == -1 :
 			if  self.parameters.get('coolingScheme') == "ARITHMETIC" :
-				self.parameters.update(dict(omega=self.parameters.get('initTemperature')/ objProblem.counter.limit)) 
+				self.parameters.update(dict(omega=self.parameters.get('initTemperature')/ self.objProblem.counter.limit)) 
 				self.parameters.update(dict(finalTemperature=0)) 
 			else :
 				self.parameters.update(dict(finalTemperature=1e-6 /self.parameters.get('initTemperature')))
