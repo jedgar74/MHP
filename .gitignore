@@ -3,3 +3,5 @@ __pycache__/
 # logs de progreso de las corridas largas
 DATA/output/*.log
 DATA/output/*.png
+config.bat
+node_modules

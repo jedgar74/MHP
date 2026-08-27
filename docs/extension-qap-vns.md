@@ -1,6 +1,6 @@
 # Extension QAP + VNS
 
-**Fecha:** 27 de agosto de 2026  
+**Autor:** Victorino Ramirez
 **Base de diseño:** `docs/diseno-pfsp-ts.md`
 
 ## Resumen
