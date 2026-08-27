@@ -1,7 +1,7 @@
 from problem.Problem import *
 import numpy as np
 import json
-from typing import List, Tuple, Optional
+from typing import List, Tuple, Optional 
 import logging
 
 class JobSchedulingProblem(Problem):
