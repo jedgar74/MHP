@@ -12,6 +12,7 @@ from algorithm.CooperativeSearch import *
 from algorithm.RandomWalk import *
 from algorithm.AntColonyOptimization import *
 from algorithm.TabuSearch import *
+from algorithm.VariableNeighborhoodSearch import *
 
 from datetime import datetime, date, time, timedelta
 import calendar
@@ -51,7 +52,6 @@ class Agent(object):
 		self.objMetaheuristic = None   
 		self.allsolutions = []
 		self.startCosts = []
- 
 
 	def printFile(self):
 		"""
@@ -59,189 +59,156 @@ class Agent(object):
 		@author
 		"""
 		ahora = datetime.now()                     
-		
-		auxFile = "./output/"+ problem.nameShort+" "+ahora.day+"_" +(ahora.month)+"_"+ahora.year+" "+ahora.hour+"_"+ahora.minute+".txt"
-		f = open (auxFile,'w')
+		auxFile = "./output/" + self.problem.nameShort + " " + str(ahora.day) + "_" + str(ahora.month) + "_" + str(ahora.year) + " " + str(ahora.hour) + "_" + str(ahora.minute) + ".txt"
+		f = open(auxFile, 'w')
 		f.write(self.stats.toString())
 		f.close()
- 
 
 	def init(self):
 		"""
 		@return  :
 		@author
 		"""
-     
 		self.problem.counter = Counter(self.nEvals) 
-		self.stats.setLabel(self.metaheuristic +"---"+self.paraMetaheuristic+"["+str(self.nEvals)+"]");
+		self.stats.setLabel(self.metaheuristic + "---" + self.paraMetaheuristic + "[" + str(self.nEvals) + "]")
 
-		print("\n Experiments to "+self.metaheuristic)
+		print("\n Experiments to " + self.metaheuristic)
 		for e in range(self.nExperim):
 			
 			if (e % 15 == 14):
-				print(" "+str(e)+"\n")
-			else :
-				print(" "+str(e))
+				print(" " + str(e) + "\n")
+			else:
+				print(" " + str(e))
 
-			if (self.metaheuristic == "GA") :
+			if (self.metaheuristic == "GA"):
 				GA = GeneticAlgorithm(self.problem, self.paraMetaheuristic) 
 				self.stats.add(GA.status.stateFinal)   
 				
-			if (self.metaheuristic == "SA") :
+			if (self.metaheuristic == "SA"):
 				SA = SimulatingAnnealing(self.problem, self.paraMetaheuristic) 
 				self.stats.add(SA.status.stateFinal) 
 				
-			if (self.metaheuristic == "DE") :
+			if (self.metaheuristic == "DE"):
 				DE = DifferentialEvolution(self.problem, self.paraMetaheuristic) 
 				self.stats.add(DE.status.stateFinal) 
                 
-			if (self.metaheuristic == "HS") :
+			if (self.metaheuristic == "HS"):
 				HS = HarmonySearch(self.problem, self.paraMetaheuristic) 
 				self.stats.add(HS.status.stateFinal) 
                 
-			if (self.metaheuristic == "CE") :
+			if (self.metaheuristic == "CE"):
 				CE = CrossEntropy(self.problem, self.paraMetaheuristic) 
 				self.stats.add(CE.status.stateFinal) 
                 
-			if (self.metaheuristic == "CCE") :
+			if (self.metaheuristic == "CCE"):
 				CCE = CooperativeCrossEntropy(self.problem, self.paraMetaheuristic) 
 				self.stats.add(CCE.status.stateFinal)
 				                
-			if (self.metaheuristic == "FWA") :
+			if (self.metaheuristic == "FWA"):
 				FWA = FireworksAlgorithm(self.problem, self.paraMetaheuristic) 
 				self.stats.add(FWA.status.stateFinal) 
                 
-			if (self.metaheuristic == "CooS") :
+			if (self.metaheuristic == "CooS"):
 				CooS = CooperativeSearch(self.problem, self.paraMetaheuristic) 
 				self.stats.add(CooS.status.stateFinal)     
                 
-			if (self.metaheuristic == "RW") :
+			if (self.metaheuristic == "RW"):
 				RW = RandomWalk(self.problem, self.paraMetaheuristic)
 				self.stats.add(RW.status.stateFinal)
-				self.allsolutions = RW.solutions # Revisar la inclusión de esta variable
+				self.allsolutions = RW.solutions
 
-			if (self.metaheuristic == "ACO") :
+			if (self.metaheuristic == "ACO"):
 				ACO = AntColonyOptimization(self.problem, self.paraMetaheuristic)
 				self.stats.add(ACO.status.stateFinal)
 				self.startCosts.append(ACO.lnnCost)
 
-			if (self.metaheuristic == "TS") :
+			if (self.metaheuristic == "TS"):
 				TS = TabuSearch(self.problem, self.paraMetaheuristic)
 				self.stats.add(TS.status.stateFinal)
 				self.startCosts.append(TS.nehCost)
 
+			if (self.metaheuristic == "VNS"):
+				VNS = VariableNeighborhoodSearch(self.problem, self.paraMetaheuristic)
+				self.stats.add(VNS.status.stateFinal)
+
 			self.problem.counter = Counter(self.nEvals)
 		
 		print("\n") 
-		self.stats.prints();
+		self.stats.prints()
 		print("") 
-		self.stats.printAllSolutions();
-
+		self.stats.printAllSolutions()
 
 	def init2(self):
 		"""
 		@return  :
 		@author
 		"""
-     
-		# self.problem.counter = Counter(self.nEvals) 
-		self.stats.setLabel(self.metaheuristic +"---"+self.paraMetaheuristic+"["+str(self.nEvals)+"]");
+		self.stats.setLabel(self.metaheuristic + "---" + self.paraMetaheuristic + "[" + str(self.nEvals) + "]")
 
-		print("\n Experiments to "+self.metaheuristic) 
+		print("\n Experiments to " + self.metaheuristic) 
 		
-		if (self.metaheuristic == "GA") :
+		if (self.metaheuristic == "GA"):
 			self.objMetaheuristic = GeneticAlgorithm(self.problem, self.paraMetaheuristic, False) 
-            # self.stats.add(GA.status.stateFinal)   
 				
-		if (self.metaheuristic == "SA") :
+		if (self.metaheuristic == "SA"):
 			self.objMetaheuristic = SimulatingAnnealing(self.problem, self.paraMetaheuristic, False) 
-			# self.stats.add(SA.status.stateFinal) 
             
-		if (self.metaheuristic == "DE") :
+		if (self.metaheuristic == "DE"):
 			self.objMetaheuristic = DifferentialEvolution(self.problem, self.paraMetaheuristic, False) 
-			# self.stats.add(SA.status.stateFinal) 
             
-		if (self.metaheuristic == "HS") :
+		if (self.metaheuristic == "HS"):
 			self.objMetaheuristic = HarmonySearch(self.problem, self.paraMetaheuristic, False) 
-			# self.stats.add(SA.status.stateFinal) 
             
-		if (self.metaheuristic == "CE") :
+		if (self.metaheuristic == "CE"):
 			self.objMetaheuristic = CrossEntropy(self.problem, self.paraMetaheuristic, False) 
-			# self.stats.add(SA.status.stateFinal) 
             
-		if (self.metaheuristic == "CCE") :
+		if (self.metaheuristic == "CCE"):
 			self.objMetaheuristic = CooperativeCrossEntropy(self.problem, self.paraMetaheuristic, False) 
-			# self.stats.add(SA.status.stateFinal) 
 			            
-		if (self.metaheuristic == "FWA") :
+		if (self.metaheuristic == "FWA"):
 			self.objMetaheuristic = FireworksAlgorithm(self.problem, self.paraMetaheuristic, False) 
-			# self.stats.add(SA.status.stateFinal) 
             
-		if (self.metaheuristic == "CooS") :
+		if (self.metaheuristic == "CooS"):
 			self.objMetaheuristic = CooperativeSearch(self.problem, self.paraMetaheuristic, False) 
-			# self.stats.add(CooS.status.stateFinal)     
             
-		if (self.metaheuristic == "RW") :
+		if (self.metaheuristic == "RW"):
 			self.objMetaheuristic = CooperativeSearch(self.problem, self.paraMetaheuristic, False)
-			# self.stats.add(CooS.status.stateFinal)
 
-		if (self.metaheuristic == "ACO") :
+		if (self.metaheuristic == "ACO"):
 			self.objMetaheuristic = AntColonyOptimization(self.problem, self.paraMetaheuristic, False)
-			# self.stats.add(ACO.status.stateFinal)
 
-		if (self.metaheuristic == "TS") :
+		if (self.metaheuristic == "TS"):
 			self.objMetaheuristic = TabuSearch(self.problem, self.paraMetaheuristic, False)
-			# self.stats.add(TS.status.stateFinal)
 
+		if (self.metaheuristic == "VNS"):
+			self.objMetaheuristic = VariableNeighborhoodSearch(self.problem, self.paraMetaheuristic, False)
 
-		# self.problem.counter = Counter(self.nEvals)  
-		
-		# print("\n") 
-		# self.stats.prints();
-		# print("") 
-		# self.stats.printAllSolutions();
-
-
-	def run(self, sol = None):
+	def run(self, sol=None):
 		"""
 		@return  :
 		@author
 		"""
-     
 		self.problem.counter = Counter(self.nEvals) 
-		# self.stats.setLabel(self.metaheuristic +"---"+self.paraMetaheuristic+"["+str(self.nEvals)+"]");
-
-		print("\n Experiments to "+self.metaheuristic) 
+		print("\n Experiments to " + self.metaheuristic) 
 		self.objMetaheuristic.run(sol)
 		self.stats.add(self.objMetaheuristic.status.stateFinal)   
-				
 		self.problem.counter = Counter(self.nEvals)  
-		
 		print("\n") 
-# =============================================================================
-# 		self.stats.prints();
-# 		print("") 
-# =============================================================================
-		self.stats.printAllSolutions();
-        
+		self.stats.printAllSolutions()
         
 	def replacement(self, solution):
 		"""
 		@return  :
 		@author
 		""" 
-     
 		self.objMetaheuristic.replaceSolution(solution) 
         
-        
-	def getSolution(self, i = None):
+	def getSolution(self, i=None):
 		"""
 		@return  :
 		@author
 		""" 
-     
-		if (i == None) :
+		if (i == None):
 			return self.stats.getSolutionComplete()
-            
-		else :
+		else:
 			return self.stats.getSolutionComplete(i)
