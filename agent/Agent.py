@@ -12,6 +12,7 @@ from algorithm.CooperativeSearch import *
 from algorithm.RandomWalk import *
 from algorithm.AntColonyOptimization import *
 from algorithm.TabuSearch import *
+from algorithm.Grasp import *
 
 from datetime import datetime, date, time, timedelta
 import calendar
@@ -130,6 +131,11 @@ class Agent(object):
 				self.stats.add(TS.status.stateFinal)
 				self.startCosts.append(TS.nehCost)
 
+			if (self.metaheuristic == "GRASP") :
+				grasp = Grasp(self.problem, self.paraMetaheuristic)
+				self.stats.add(grasp.status.stateFinal)
+				self.startCosts.append(grasp.graspStartCost)
+
 			self.problem.counter = Counter(self.nEvals)
 		
 		print("\n") 
@@ -192,6 +198,10 @@ class Agent(object):
 		if (self.metaheuristic == "TS") :
 			self.objMetaheuristic = TabuSearch(self.problem, self.paraMetaheuristic, False)
 			# self.stats.add(TS.status.stateFinal)
+
+		if (self.metaheuristic == "GRASP") :
+			self.objMetaheuristic = Grasp(self.problem, self.paraMetaheuristic, False)
+			# self.stats.add(GRASP.status.stateFinal)
 
 
 		# self.problem.counter = Counter(self.nEvals)  
