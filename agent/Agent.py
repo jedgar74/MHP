@@ -11,6 +11,7 @@ from algorithm.FireworksAlgorithm import *
 from algorithm.CooperativeSearch import *
 from algorithm.RandomWalk import *
 from algorithm.AntColonyOptimization import *
+from algorithm.BinaryParticleSwarmOptimization import *
 from algorithm.TabuSearch import *
 
 from datetime import datetime, date, time, timedelta
@@ -130,6 +131,10 @@ class Agent(object):
 				self.stats.add(TS.status.stateFinal)
 				self.startCosts.append(TS.nehCost)
 
+			if (self.metaheuristic == "BPSO") :
+				BPSO = BinaryParticleSwarmOptimization(self.problem, self.paraMetaheuristic)
+				self.stats.add(BPSO.status.stateFinal)
+
 			self.problem.counter = Counter(self.nEvals)
 		
 		print("\n") 
@@ -192,6 +197,10 @@ class Agent(object):
 		if (self.metaheuristic == "TS") :
 			self.objMetaheuristic = TabuSearch(self.problem, self.paraMetaheuristic, False)
 			# self.stats.add(TS.status.stateFinal)
+
+		if (self.metaheuristic == "BPSO") :
+			self.objMetaheuristic = BinaryParticleSwarmOptimization(self.problem, self.paraMetaheuristic, False)
+			# self.stats.add(BPSO.status.stateFinal)
 
 
 		# self.problem.counter = Counter(self.nEvals)  
