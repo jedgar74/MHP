@@ -1,0 +1,7 @@
+{
+  "kmax": 3,
+  "neighborhoods": ["SWAP", "INSERTION"],
+  "initialTypeSolution": "RANDOM",
+  "localSearchType": "FIRST_IMPROVEMENT",
+  "factorNeighs": 2
+}
