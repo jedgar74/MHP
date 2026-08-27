@@ -13,6 +13,7 @@ from algorithm.RandomWalk import *
 from algorithm.AntColonyOptimization import *
 from algorithm.TabuSearch import *
 from algorithm.Grasp import *
+from algorithm.VariableNeighborhoodSearch import *
 
 from datetime import datetime, date, time, timedelta
 import calendar
@@ -136,6 +137,11 @@ class Agent(object):
 				self.stats.add(grasp.status.stateFinal)
 				self.startCosts.append(grasp.graspStartCost)
 
+			if (self.metaheuristic == "VNS") :
+				vns = VariableNeighborhoodSearch(self.problem, self.paraMetaheuristic)
+				self.stats.add(vns.status.stateFinal)
+				self.startCosts.append(vns.startCost)
+
 			self.problem.counter = Counter(self.nEvals)
 		
 		print("\n") 
@@ -202,6 +208,10 @@ class Agent(object):
 		if (self.metaheuristic == "GRASP") :
 			self.objMetaheuristic = Grasp(self.problem, self.paraMetaheuristic, False)
 			# self.stats.add(GRASP.status.stateFinal)
+
+		if (self.metaheuristic == "VNS") :
+			self.objMetaheuristic = VariableNeighborhoodSearch(self.problem,
+				self.paraMetaheuristic, False)
 
 
 		# self.problem.counter = Counter(self.nEvals)  

@@ -1,0 +1,5 @@
+{
+  "neighborhoods": ["SWAP", "INSERTION"],
+  "initialTypeSolution": "RANDOM",
+  "maxNeighbors": null
+}
