@@ -1,6 +1,6 @@
 {
   "initTemperature": 100.0,
-  "finalTemperature": 0.01,
+  "finalTemperature": 0.01, 
   "coolingFactor": 0.95,
   "maxRestarts": 3,
   "initialTypeSolution": "RANDOM",
