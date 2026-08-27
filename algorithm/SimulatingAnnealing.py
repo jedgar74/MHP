@@ -133,8 +133,14 @@ class SimulatingAnnealing (Heuristic):
 			return False 
  
  
-	def probabilityFunction(self, t, nf,  af) : 
-		return math.exp((af - nf) / t);
+	def probabilityFunction(self, t, nf,  af) :
+		# CORRECCION: la formula original exp((af - nf) / t) solo es valida para
+		# problemas de minimizacion. En MAX (p.ej. Max-Cut) el empeoramiento hace
+		# (af - nf) positivo y, con la temperatura tendiendo a 0, math.exp
+		# desborda (OverflowError). Usando la magnitud |af - nf| la probabilidad
+		# queda en (0, 1] para MIN y MAX por igual, y es identica a la original
+		# en MIN (donde af - nf <= 0).
+		return math.exp(-abs(af - nf) / t);
 	 
 	 
 	# this method is needed to review because the initial temperature not modified in the body

@@ -77,6 +77,14 @@ def printer(instances, nameParameters, optima=None, startCosts=None):
 		if (optima is not None) and (instances[ini] in optima):
 			best = float(optima[instances[ini]])
 
+		# Para problemas de MAX (p.ej. Max-Cut) "peor" significa quedar POR
+		# DEBAJO del optimo; el gap se invierte para que siga siendo positivo
+		# cuando la solucion es peor, igual que en MIN. No afecta a los
+		# problemas de minimizacion existentes.
+		maximize = False
+		if (len(nameParameters) > 0) and (nameParameters[ini].typeProblem != "MIN"):
+			maximize = True
+
 		# Solo se muestran las columnas de arranque si alguna serie del bloque
 		# las reporta y hay optimo con el que normalizar.
 		showStart = False
@@ -114,11 +122,15 @@ def printer(instances, nameParameters, optima=None, startCosts=None):
 			gap = None
 			if best is not None:
 				gap = 100.0 * (ave - best) / best
+				if maximize:
+					gap = -gap
 				print('{: <10.2f}'.format(gap), end="")
 			if showStart:
 				sc = startCosts[r] if r < len(startCosts) else None
 				if sc:
 					sgap = 100.0 * (float(np.mean(sc)) - best) / best
+					if maximize:
+						sgap = -sgap
 					print('{: <10.2f}'.format(sgap), end="")
 					print('{: <10.2f}'.format(sgap - gap), end="")
 				else:
