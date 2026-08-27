@@ -73,3 +73,48 @@ El diseño y su justificación están en `docs/diseno-pfsp-ts.md`; los resultado
 ``` [pyhon]
  python -m unittest discover tests/
 ```
+
+## Extensión: 0/1 Knapsack con Binary Particle Swarm Optimization
+
+Se incorporan el problema *0/1 Knapsack* (KP) y la metaheurística *Binary Particle Swarm Optimization* (BPSO).
+
+### Problema
+
+Hay `n` objetos, cada uno con un peso y un beneficio, y una mochila con una capacidad `C`. Hay que decidir qué objetos se meten en la mochila maximizando el beneficio total sin superar la capacidad. La solución es binaria (un bit por objeto), y MHP la representa internamente en el alfabeto `-1/+1` (el mismo patrón de codificación que usa `UnitCommitmentProblem`).
+
+### BPSO
+
+BPSO mantiene una población de partículas; cada una guarda su posición binaria, su velocidad y su mejor posición histórica (`pbest`), y el enjambre conserva la mejor posición global (`gbest`). La velocidad se actualiza con los pesos de inercia (`w`) y las constantes de atracción cognitiva y social (`c1`, `c2`), y la posición binaria se decide mediante la función sigmoide de la velocidad. Al finalizar se almacena la posición en `-1/+1`.
+
+### Ejemplo
+
+``` [pyhon]
+ 1. from agent.Agent import *
+ 2. from examples.KnapsackProblem import *
+ 3. problemv = KnapsackProblem("kp_10_1.txt")
+ 4. agent = Agent(problemv, ["BPSO", "BPSOc", 1000, 5])
+ 5. agent.init()
+```
+
+La línea 3 crea el problema leyendo la instancia `kp_10_1.txt` (n=10, con su óptimo en la cabecera). La línea 4 inicializa el agente con `BPSO`, la configuración `BPSOc`, un presupuesto de 1000 evaluaciones y 5 corridas.
+
+### Instancias
+
+En `DATA/instances/KP/` están la instancia *toy* `kp_3_1.txt` (usada como oráculo en las pruebas) y las 6 instancias experimentales de n=10, 20 y 30. Los valores óptimos exactos se calcularon por programación dinámica 0/1 y están en el subdirectorio `opt/optimums.txt`, además de en la cabecera de cada instancia.
+
+### Configuración
+
+| Configuración | Algoritmo | Para qué |
+|---|---|---|
+| `DATA/config/BPSO/BPSOc.json` | BPSO | Enjambre de referencia (sin calibración exhaustiva) |
+| `DATA/config/GA/GAKP.json` | GA | GA genérico binario sobre KP |
+| `DATA/config/SA/SAKP.json` | SA | Recocido simulado con mutación por *flipping* sobre KP |
+
+### Experimentación
+
+``` [pyhon]
+ python ExecuteKnapsack.py --headless
+ python ExecuteKnapsack.py --headless --evals 200 --runs 2
+```
+
+El guion compara BPSO, GA y SA sobre las 6 instancias con 5 corridas y 1000 evaluaciones cada una (90 000 evaluaciones en total), y cierra con el contraste no paramétrico de Friedman, Iman-Davenport y Holm. En el conjunto experimental evaluado, BPSO obtuvo el menor gap medio (4.16 %) y el mejor rango medio (1.00), por delante de SA (10.76 % y 2.00) y GA (19.17 % y 3.00), y fue primero en las 6 instancias. Los resultados tienen carácter exploratorio debido al tamaño reducido del conjunto experimental y a que BPSO se utilizó sin una calibración exhaustiva. El detalle está en `docs/resultados-kp-bpso.md`.
