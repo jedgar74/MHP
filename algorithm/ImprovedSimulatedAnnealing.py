@@ -1,5 +1,5 @@
 from algorithm.Heuristic import *
-from problem.Problem import *
+from problem.Problem import * 
 from state.Solution import *
 import math
 import copy
