@@ -1,7 +1,7 @@
 {
   "nJobs": 8,
   "nMachines": 4,
-  "processing_times": [12, 8, 15, 6, 10, 14, 9, 11],
+  "processing_times": [12, 8, 15, 6, 10, 14, 9, 11], 
   "machine_speeds": [1.0, 1.2, 0.9, 1.1],
   "setup_times": [
     [0, 2, 3, 1, 4, 2, 3, 2],
