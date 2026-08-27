@@ -1,0 +1,47 @@
+# Mejores valores conocidos de QAPLIB (Burkard, Karisch y Rendl).
+# Para las familias chr, els, had, nug, rou, scr y tai*a de este tamano el
+# valor esta demostrado optimo; para bur26 y kra30a es el mejor conocido.
+#
+# Esta tabla, y no ningun dato de la cabecera de la instancia, es la referencia
+# con la que se mide la calidad. El fichero DATA/output/QAP 28_5_2019 18_17.txt
+# del propio repositorio confirma had12 = 1652.
+#
+# instancia	valor
+bur26f	3782044
+chr12a	9552
+chr12b	9742
+chr12c	11156
+chr15a	9896
+chr15b	7990
+chr15c	9504
+chr18a	11098
+chr18b	1534
+chr20a	2192
+chr20b	2298
+chr20c	14142
+chr22a	6156
+els19	17212548
+had12	1652
+had14	2724
+had16	3720
+had18	5358
+had20	6922
+kra30a	88900
+nug12	578
+nug14	1014
+nug15	1150
+nug17	1732
+nug18	1930
+rou12	235528
+rou15	354210
+rou20	725522
+scr12	31410
+scr15	51140
+scr20	110030
+tai12a	224416
+tai12b	39464925
+tai15a	388214
+tai15b	51765268
+tai17a	491812
+tai20a	703482
+tai20b	122455319

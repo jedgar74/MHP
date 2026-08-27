@@ -1,0 +1,7 @@
+{
+	"neighborhood": "SWAP",
+	"strategy": "BEST",
+	"allNeighs": "NONE",
+	"factorNeighs": 4,
+	"initialTypeSolution": "RANDOM"
+}

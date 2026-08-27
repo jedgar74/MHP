@@ -1,0 +1,9 @@
+{
+	"localSearch": "HC",
+	"configLocalSearch": "HCc",
+	"perturbation": "SWAPPING",
+	"perturbationStrength": 6,
+	"nonImprovingLimit": 2000,
+	"acceptance": "BETTER",
+	"initialTypeSolution": "RANDOM"
+}

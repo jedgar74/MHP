@@ -12,6 +12,8 @@ from algorithm.CooperativeSearch import *
 from algorithm.RandomWalk import *
 from algorithm.AntColonyOptimization import *
 from algorithm.TabuSearch import *
+from algorithm.HillClimbing import *
+from algorithm.IteratedLocalSearch import *
 
 from datetime import datetime, date, time, timedelta
 import calendar
@@ -130,6 +132,14 @@ class Agent(object):
 				self.stats.add(TS.status.stateFinal)
 				self.startCosts.append(TS.nehCost)
 
+			if (self.metaheuristic == "HC") :
+				HC = HillClimbing(self.problem, self.paraMetaheuristic)
+				self.stats.add(HC.status.stateFinal)
+
+			if (self.metaheuristic == "ILS") :
+				ILS = IteratedLocalSearch(self.problem, self.paraMetaheuristic)
+				self.stats.add(ILS.status.stateFinal)
+
 			self.problem.counter = Counter(self.nEvals)
 		
 		print("\n") 
@@ -192,6 +202,14 @@ class Agent(object):
 		if (self.metaheuristic == "TS") :
 			self.objMetaheuristic = TabuSearch(self.problem, self.paraMetaheuristic, False)
 			# self.stats.add(TS.status.stateFinal)
+
+		if (self.metaheuristic == "HC") :
+			self.objMetaheuristic = HillClimbing(self.problem, self.paraMetaheuristic, False)
+			# self.stats.add(HC.status.stateFinal)
+
+		if (self.metaheuristic == "ILS") :
+			self.objMetaheuristic = IteratedLocalSearch(self.problem, self.paraMetaheuristic, False)
+			# self.stats.add(ILS.status.stateFinal)
 
 
 		# self.problem.counter = Counter(self.nEvals)  
