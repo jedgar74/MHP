@@ -1,0 +1,8 @@
+{
+    "initTemperature": 100,
+    "finalTemperature": 0,
+    "coolingScheme": "GEOMETRIC",
+    "omega": -1,
+    "initialTypeSolution": "RANDOM",
+    "mutationoper": "FLIPPING"
+}
