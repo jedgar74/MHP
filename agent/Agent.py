@@ -15,6 +15,7 @@ from algorithm.TabuSearch import *
 from algorithm.HillClimbing import *
 from algorithm.IteratedLocalSearch import *
 from algorithm.Grasp import *
+from algorithm.LateAcceptanceHillClimbing import *
 
 from datetime import datetime, date, time, timedelta
 import calendar
@@ -146,6 +147,10 @@ class Agent(object):
 				self.stats.add(grasp.status.stateFinal)
 				self.startCosts.append(grasp.graspStartCost)
 
+			if (self.metaheuristic == "LAHC") :
+				lahc = LateAcceptanceHillClimbing(self.problem, self.paraMetaheuristic)
+				self.stats.add(lahc.status.stateFinal)
+
 			self.problem.counter = Counter(self.nEvals)
 		
 		print("\n") 
@@ -220,6 +225,9 @@ class Agent(object):
 		if (self.metaheuristic == "GRASP") :
 			self.objMetaheuristic = Grasp(self.problem, self.paraMetaheuristic, False)
 			# self.stats.add(GRASP.status.stateFinal)
+
+		if (self.metaheuristic == "LAHC") :
+			self.objMetaheuristic = LateAcceptanceHillClimbing(self.problem, self.paraMetaheuristic, False)
 
 
 		# self.problem.counter = Counter(self.nEvals)  

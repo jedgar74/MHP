@@ -1,0 +1,11 @@
+{
+    "version": "STEADY",
+    "percElitism": 0.15,
+    "individuals": 20,
+    "crossoveroper": "ONEPOINT",
+    "selectionoper": "TOURNAMENT",
+    "mutationoper": "FLIPPING",
+    "probcrossover": 1.0,
+    "probmutation": 0.30,
+    "initialTypeSolution": "RANDOM"
+}

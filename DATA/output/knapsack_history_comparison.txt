@@ -1,0 +1,48 @@
+============================================================
+ 0/1 KNAPSACK :: comparacion de metaheuristicas
+ Nuevo algoritmo       : LAHC (Late Acceptance Hill Climbing)
+ Instancias             : 5
+ Series                 : ['LAHC/LAHC20', 'LAHC/LAHC100', 'LAHC/LAHC200', 'LAHC/LAHC500']
+ Corridas por serie     : 3
+ Evaluaciones/corrida   : 2000
+ Referencia             : optimo exacto por programacion dinamica
+============================================================
+
+-- kp60_01 optimo = 2922
+  LAHC/LAHC20    best= 2314.0 mean= 2196.3 gap= 24.83% feasible=3/3
+  LAHC/LAHC100   best= 2486.0 mean= 2375.3 gap= 18.71% feasible=3/3
+  LAHC/LAHC200   best= 2460.0 mean= 2408.7 gap= 17.57% feasible=3/3
+  LAHC/LAHC500   best= 2351.0 mean= 2323.7 gap= 20.48% feasible=3/3
+
+-- kp60_02 optimo = 3362
+  LAHC/LAHC20    best= 2797.0 mean= 2745.7 gap= 18.33% feasible=3/3
+  LAHC/LAHC100   best= 2931.0 mean= 2847.7 gap= 15.30% feasible=3/3
+  LAHC/LAHC200   best= 2803.0 mean= 2782.0 gap= 17.25% feasible=3/3
+  LAHC/LAHC500   best= 2835.0 mean= 2728.7 gap= 18.84% feasible=3/3
+
+-- kp60_03 optimo = 3263
+  LAHC/LAHC20    best= 2668.0 mean= 2596.3 gap= 20.43% feasible=3/3
+  LAHC/LAHC100   best= 2741.0 mean= 2614.7 gap= 19.87% feasible=3/3
+  LAHC/LAHC200   best= 2706.0 mean= 2645.3 gap= 18.93% feasible=3/3
+  LAHC/LAHC500   best= 2705.0 mean= 2649.7 gap= 18.80% feasible=3/3
+
+-- kp60_04 optimo = 3096
+  LAHC/LAHC20    best= 2628.0 mean= 2492.7 gap= 19.49% feasible=3/3
+  LAHC/LAHC100   best= 2711.0 mean= 2685.7 gap= 13.25% feasible=3/3
+  LAHC/LAHC200   best= 2673.0 mean= 2624.7 gap= 15.22% feasible=3/3
+  LAHC/LAHC500   best= 2481.0 mean= 2445.3 gap= 21.02% feasible=3/3
+
+-- kp60_05 optimo = 2910
+  LAHC/LAHC20    best= 2330.0 mean= 2245.3 gap= 22.84% feasible=3/3
+  LAHC/LAHC100   best= 2578.0 mean= 2468.3 gap= 15.18% feasible=3/3
+  LAHC/LAHC200   best= 2314.0 mean= 2304.0 gap= 20.82% feasible=3/3
+  LAHC/LAHC500   best= 2469.0 mean= 2279.7 gap= 21.66% feasible=3/3
+
+==================== RANKING GLOBAL ====================
+Ordenado por menor gap medio respecto al optimo exacto:
+ 1. LAHC/LAHC100   gap medio= 16.46%  desv= 2.45  victorias=3/5
+ 2. LAHC/LAHC200   gap medio= 17.96%  desv= 1.86  victorias=1/5
+ 3. LAHC/LAHC500   gap medio= 20.16%  desv= 1.16  victorias=1/5
+ 4. LAHC/LAHC20    gap medio= 21.19%  desv= 2.35  victorias=0/5
+
+CSV guardado en: DATA/output/knapsack_history_comparison.csv

@@ -131,3 +131,26 @@ El guion compara ILS contra los métodos ya presentes en la plataforma sobre las
  python -m unittest tests/test_qap_reader.py
  python -m unittest tests/test_ils.py
 ```
+
+## Extensión: 0/1 Knapsack con Late Acceptance Hill Climbing
+
+Se incorporan el problema **0/1 Knapsack (KP)** y la metaheurística **Late Acceptance Hill Climbing (LAHC)**. La mochila usa representación binaria (`+1` seleccionado, `-1` no seleccionado) y maximiza el valor respetando la capacidad.
+
+```python
+from agent.Agent import Agent
+from examples.KnapsackProblem import KnapsackProblem
+
+problemv = KnapsackProblem("kp60_01.txt")
+agent = Agent(problemv, ["LAHC", "LAHC100", 2000, 3])
+agent.init()
+```
+
+Las instancias reproducibles están en `DATA/instances/KNAPSACK/`, sus óptimos exactos en `DATA/instances/KNAPSACK/opt/optimums.txt`, y las configuraciones de LAHC en `DATA/config/LAHC/`.
+
+La comparación contra GA, SA y RW se ejecuta con:
+
+```bash
+python ExecuteKnapsack.py --instances 5 --evals 2000 --runs 3 --quiet
+```
+
+En la corrida documentada, GA obtuvo el menor gap medio (9.67%) y LAHC quedó segundo (17.30%), por delante de SA y RW. El diseño completo está en `docs/diseno-knapsack-lahc.md` y los resultados en `docs/resultados-knapsack-lahc.md`.

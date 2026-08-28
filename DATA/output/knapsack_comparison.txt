@@ -1,0 +1,48 @@
+============================================================
+ 0/1 KNAPSACK :: comparacion de metaheuristicas
+ Nuevo algoritmo       : LAHC (Late Acceptance Hill Climbing)
+ Instancias             : 5
+ Series                 : ['LAHC/LAHC100', 'GA/GAKP', 'SA/SAKP', 'RW/RWKP']
+ Corridas por serie     : 3
+ Evaluaciones/corrida   : 2000
+ Referencia             : optimo exacto por programacion dinamica
+============================================================
+
+-- kp60_01 optimo = 2922
+  LAHC/LAHC100   best= 2312.0 mean= 2277.3 gap= 22.06% feasible=3/3
+  GA/GAKP        best= 2653.0 mean= 2602.7 gap= 10.93% feasible=3/3
+  SA/SAKP        best= 2350.0 mean= 2145.0 gap= 26.59% feasible=3/3
+  RW/RWKP        best= 2258.0 mean= 1460.3 gap= 50.02% feasible=2/3
+
+-- kp60_02 optimo = 3362
+  LAHC/LAHC100   best= 2901.0 mean= 2819.0 gap= 16.15% feasible=3/3
+  GA/GAKP        best= 3232.0 mean= 3125.3 gap=  7.04% feasible=3/3
+  SA/SAKP        best= 2585.0 mean= 1643.7 gap= 51.11% feasible=2/3
+  RW/RWKP        best= 2610.0 mean= 2498.3 gap= 25.69% feasible=3/3
+
+-- kp60_03 optimo = 3263
+  LAHC/LAHC100   best= 2779.0 mean= 2702.0 gap= 17.19% feasible=3/3
+  GA/GAKP        best= 3103.0 mean= 3008.0 gap=  7.81% feasible=3/3
+  SA/SAKP        best= 2602.0 mean= 2509.7 gap= 23.09% feasible=3/3
+  RW/RWKP        best= 2778.0 mean= 2519.7 gap= 22.78% feasible=3/3
+
+-- kp60_04 optimo = 3096
+  LAHC/LAHC100   best= 2725.0 mean= 2624.0 gap= 15.25% feasible=3/3
+  GA/GAKP        best= 2894.0 mean= 2740.0 gap= 11.50% feasible=3/3
+  SA/SAKP        best= 2327.0 mean= 2288.3 gap= 26.09% feasible=3/3
+  RW/RWKP        best= 2416.0 mean= 2294.7 gap= 25.88% feasible=3/3
+
+-- kp60_05 optimo = 2910
+  LAHC/LAHC100   best= 2550.0 mean= 2448.7 gap= 15.85% feasible=3/3
+  GA/GAKP        best= 2691.0 mean= 2588.3 gap= 11.05% feasible=3/3
+  SA/SAKP        best= 2292.0 mean=  716.0 gap= 75.40% feasible=1/3
+  RW/RWKP        best= 2111.0 mean=  666.7 gap= 77.09% feasible=1/3
+
+==================== RANKING GLOBAL ====================
+Ordenado por menor gap medio respecto al optimo exacto:
+ 1. GA/GAKP        gap medio=  9.67%  desv= 1.85  victorias=5/5
+ 2. LAHC/LAHC100   gap medio= 17.30%  desv= 2.46  victorias=0/5
+ 3. RW/RWKP        gap medio= 40.29%  desv=20.86  victorias=0/5
+ 4. SA/SAKP        gap medio= 40.45%  desv=20.17  victorias=0/5
+
+CSV guardado en: DATA/output/knapsack_comparison.csv

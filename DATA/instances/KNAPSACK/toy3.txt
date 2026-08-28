@@ -1,0 +1,5 @@
+# 0/1 Knapsack: n capacity; luego value weight
+3 50
+60 10
+100 20
+120 30

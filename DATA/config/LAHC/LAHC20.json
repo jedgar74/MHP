@@ -1,0 +1,5 @@
+{
+    "historyLength": 20,
+    "initialTypeSolution": "RANDOM",
+    "mutationoper": "FLIPPING"
+}
