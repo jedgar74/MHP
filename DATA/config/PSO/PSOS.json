@@ -1,0 +1,8 @@
+{
+	"particles": 30,
+	"inertia": 0.7298,
+	"cognitive": 1.49618,
+	"social": 1.49618,
+	"vmaxRatio": 0.2,
+	"initialTypeSolution": "RANDOM"
+}
