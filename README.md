@@ -131,3 +131,21 @@ El guion compara ILS contra los métodos ya presentes en la plataforma sobre las
  python -m unittest tests/test_qap_reader.py
  python -m unittest tests/test_ils.py
 ```
+
+
+## PSO aplicado a Rastrigin
+
+La plataforma incluye Particle Swarm Optimization (PSO) para problemas de
+variables reales y tres instancias de la función benchmark Rastrigin: 2, 10 y 30 dimensiones. El ejemplo se ejecuta desde la raíz del repositorio:
+
+```bash
+python ExecuteRastrigin.py
+python ExecuteRastrigin.py --dimensions 10 --evals 10000 --runs 10 --seed 7
+```
+
+Los parámetros del enjambre se encuentran en `DATA/config/PSO/PSOS.json`. Las
+pruebas de la función y el algoritmo se ejecutan con:
+
+```bash
+python -m unittest tests/test_pso_rastrigin.py
+```
