@@ -25,6 +25,8 @@ Es reproducible: las semillas estan fijadas. No se necesita ejecutar en el
 experimento; los ficheros .txt y opt/optimums.txt ya quedan generados.
 """
 
+import utils.transport
+import utils.session
 import os
 import numpy as np
 
